@@ -1,292 +1,288 @@
-# Contributing
+# Katkıda Bulunma
 
-Your contributions are always welcome! Here are some guidelines.
+Katkılarınız her zaman memnuniyetle karşılanır! İşte bazı yönergeler.
 
-## Status
+Durum
+Bu depo bir denge durumuna ulaşmıştır. Biriktirme aşamasını geride bıraktık ve seçki sürecinin ortasındayız. Bu, kavramları rafine etmek, ilerlemeyi yumuşatmak ve yeni içerik eklemeyi özenle değerlendirmekle daha çok ilgilendiğimiz anlamına gelir.
 
-This repository has reached an equilibrium state. We are past its accumulation phase, and in the middle of the curation process. Meaning we're more into refining its concepts, smooth the progression and carefully evaluating the addition of new content.
+Pull-request ve konular (issues)
+Yeni bir tane oluşturmadan önce önceki öneriler için mevcut ve geçmiş konuları ve pull-request’leri arayın. Sizinki bir tekrar veya devam eden bir çalışma olabilir.
 
-## Pull-requests and issues
+Commit başına yalnızca bir liste öğesi.
 
-- Search past and current issues and pull-requests for previous suggestions before making a new one. Yours may be a duplicate or a work in progress.
+Pull-request başına yalnızca bir commit. Değişiklikleri uyguladıktan sonra commit’leri her zaman squash’layın.
 
-- Only one list item per commit.
+Yazım ve dilbilginizi kontrol edin.
 
-- Only one commit per pull-request. Always squash commits after applying changes.
+Bağlantı verdiğiniz kaynağın neden harika olduğunu ve mevcut külliyata ne kattığını ekleyin.
 
-- Check your spelling and grammar.
+GitHub depoları şu temel ölçütleri karşılamalıdır:
 
-- Add the reason why the linked resource is awesome. And what it adds to the existing corpus.
+En az 50 yıldız. Bilinmeyen projeleri elemek için asgari bir ilgi sinyali.
 
-- GitHub repositories must meet these baseline criteria:
+Arşivlenmemiş olması. Arşivlenmiş depolar, yazarın yoluna devam ettiğini gösterir.
 
-  1. **At least 50 stars.** A minimum traction signal to filter out unknown projects.
-  2. **Not archived.** Archived repositories signal the author has moved on.
-  3. **Updated within the last 3 years.** Repositories with no push in 3+ years are considered stale.
+Son 3 yıl içinde güncellenmiş olması. 3 yıldan uzun süredir push yapılmamış depolar bayat kabul edilir.
 
-  These are defaults, not absolutes. Maintainers may make exceptions depending on the nature of the content. Static resources (reading lists, essays, falsehood articles, data sets) don't need regular commits to remain valuable. Archived repositories with high community adoption can still serve as references. Active software projects, on the other hand, are held to stricter expectations on all three criteria.
+Bunlar varsayılanlardır, mutlak değildir. Yürütücüler, içeriğin niteliğine bağlı olarak istisnalar yapabilir. Statik kaynaklar (okuma listeleri, denemeler, yanlış makaleleri, veri setleri) değerli kalmak için düzenli commit’lere ihtiyaç duymaz. Topluluk tarafından yüksek kabul görmüş arşivlenmiş depolar hâlâ referans olarak kullanılabilir. Buna karşılık, etkin yazılım projeleri her üç ölçüt için de daha sıkı beklentilere tabidir.
 
-- Keep the translated content up-to-date with your proposal. Propagate changes to all `readme.*.md` files. Rely on automatic translation tools. Bilingual contributors will refine the result later.
+Çeviri içeriğini teklifinizle güncel tutun. Değişiklikleri tüm readme.*.md dosyalarına yayın. Otomatik çeviri araçlarından yararlanın. İki dilli katkıcılar sonucu daha sonra düzeltecektir.
 
-## Linting
+Lint’leme
+Pull-request’iniz resmî Awesome List linter’ından geçmelidir.
 
-Your pull-request should pass the [official Awesome List's linter](https://github.com/sindresorhus/awesome-lint).
+Burada ek bir iş gerekmez, çünkü zaten GitHub actions aracılığıyla entegre edilmiştir.
 
-No extra work is required here as it is [already integrated by the way of GitHub actions](https://github.com/kdeldycke/awesome-falsehood/tree/main/.github/workflows).
+Yine de, aşağıdaki komutla linter’ı yerelde çalıştırarak sorunları önceden görebilirsiniz:
 
-You can still anticipate issues by running the linter locally with:
-
-```shell-session
+shell
 $ npx awesome-lint
-```
+Biçimlendirme
+Aşağıda awesome-lint CLI tarafından kapsanmayan ek kurallar bulunmaktadır.
 
-## Formatting
+Bu kurallardan biri linter ile çelişirse, linter’ın kuralı öncelikli olur. Onu uygulayın.
 
-Here are additional rules not covered by the `awesome-lint` CLI.
+Genel içerik
+Sondaki boşlukları kaldırın.
 
-If one of these rule conflict with the linter, the linter's rule should takes precedence. Apply it.
+Girinti için sekme değil, boşluk kullanın.
 
-### General content
+Kesme işaretleri tek ASCII işareti kullanmalıdır: '.
 
-- Remove any trailing whitespaces.
+Açıklama için, orijinal içerikten en iyi tek alıntıyı belirlemeye çalışın.
 
-- Use spaces, no tabs, for indention.
+Özet işlevi görecek bir alıntı bulunamazsa, maddenin hem başlığını hem de açıklamasını kendi cümlelerinizle yazmaktan çekinmeyin. Unutmayın, bu bir seçkidir: orijinal içeriğin değerini kümeleme, kategorilere ayırma ve akıllı editoryal düzenlemeyle artırıyoruz. Yalnızca orijinal içeriğin ruhuna saygı duymanız yeterlidir.
 
-- Apostrophes should be using the single ASCII mark: `'`.
+Bölümler
+Bölümler alfabetik sıraya göre kasıtlı olarak sıralanmamıştır. Bu, genelden özel konulara bir ilerleyiş sunmak içindir.
 
-- For description, try to identify the single best quote form the original content.
+Önemli
 
-- If a quote couldn't be found to serve as a summary, feel free to paraphrase both the item's title and description. Remember, this is curation: we are increasing the value of the original content by aggregation and categorization. And also by smart editorializing. You just need to respect the spirit of the original content.
+İstisna olarak awesome-falsehood listesinde bölümler alfabetik sıradadır, çünkü tüm konular birbirinden bağımsızdır.
 
-### Sections
+Bölümler bir paragraflık giriş ve bir görsel (grafik, çizim, fotoğraf) içerebilir.
 
-- Sections **are not intentionally sorted in the alphabetical order**. That is to provide a progression, from general to specific topics.
+URL
+Mümkünse HTTPS protokolü kullanın.
 
-> [!IMPORTANT]
-> Exceptionally in `awesome-falsehood`, sections **are in alphabetical order**, as all topics are independent from each others.
+CI/CD işleri tarafından erişilebilir olmalıdır. Alan adı hız sınırlama veya içerik koruması nedeniyle 40x hataları döndürüyorsa, kararlı bir bağlantı ile değiştirin:
 
-- Section might feature one paragraph introduction and a figure (graph, drawing, photo).
+Araştırma makaleleri için sci-hub.st
 
-### URL
+Haber makaleleri için archive.ph
 
-- Use HTTPs protocol, if available.
+Diğer her şey için archive.org
 
-- Must be reachable by CI/CD jobs. If the domain return `40x` errors for rate-limiting or content protection, replace it with a stable link:
+Bazı platformlar içeriği kimlik doğrulamasının ardına koyar ve anonim trafiğe 403 döndürür (Quora, çoğu sosyal ağ tartışması, arşiv kopyası olmayan ücretli haber siteleri): bunları kullanmayın, alternatif bir kaynak bulun.
 
-  - [`sci-hub.st`](https://sci-hub.st) for research papers
-  - [`archive.ph`](https://archive.ph) for news articles
-  - [`archive.org`](https://archive.org) for anything else
+Bir GitHub deposu yeni bir sahibe devredildiğinde, yönlendirmeye güvenmek yerine URL’yi yeni asıl konuma güncelleyin (eski SAHIP/REPO ad alanı herkes tarafından geri alınabilir, bu da bağlantının alakasız bir içeriğe işaret etmesine yol açar).
 
-- Some platforms gate content behind authentication and return `403` to anonymous traffic (Quora, most social-network discussions, paywalled news sites without an archive copy): do not use them, find an alternative source.
+Bir satıcı blogu kaybolduğunda (satın alma, yeniden markalaşma, kullanımdan kaldırılan alt alan adı), orijinal URL’yi https://web.archive.org/web/<YYYYMMDDhhmmss>/ ile sarın, bulanık bir yıl ön eki yerine: belirli bir zaman damgası, istek anında Wayback’in en yakın anlık görüntüyü seçmesine bırakmaktan daha kalıcıdır.
 
-- When a GitHub repository has been transferred to a new owner, update the URL to the new canonical location instead of relying on the redirect (the old `OWNER/REPO` namespace can be reclaimed by anyone, which would leave the link pointing at unrelated content).
+Madde başlığı
+“ ve ” eğri tırnak işaretleri kullanılmaz. Bunlar, açıklamalarda orijinal içerik alıntıları için ayrılmıştır.
 
-- When a vendor blog disappears (acquisition, rebrand, decommissioned subdomain), wrap the original URL with `https://web.archive.org/web/<YYYYMMDDhhmmss>/` rather than a fuzzy year prefix: a specific timestamp is more durable than letting Wayback pick the closest snapshot at request time.
+Alıntı yapmak için ya tek ' ya da çift " varyasyonları kullanın. Bunları düzgün biçimde dengeli tutun.
 
-### Item title
+Önemli
 
-- No `“` and `”` curved quotation marks. This is reserved for original content quotation in descriptions.
+awesome-falsehood listesinde, bağlantı başlıklarındaki "Programcılar ... inanır" kısmı, listeyi derli toplu tutmak için çıkarılmalıdır.
 
-- To quote, use either the single or double variations: `'` and `"`. Keep them properly balanced.
+Madde açıklaması
+Açıklama olarak, kendi başına anlamlıysa orijinal metinden alıntı yaparak eyleme dönük bir TL;DR sunmaya çalışın.
 
-> [!IMPORTANT]
-> In `awesome-falsehood`, link titles must be stripped out of the "*Programmers believe*" part to keep it compact.
+Açıklamadaki TL;DR: ön ekini kaldırın. Zaten her açıklama kısa bir özettir.
 
-### Item description
+Alıntılar “ ve ” eğri tırnak işaretleriyle düzgün biçimde sınırlandırılmalıdır.
 
-- Try to provide an actionable TL;DR as a description, quoting the original text if it stands by itself.
+Parantez içinde üç nokta (…) kullanarak orijinal metni kısaltabilirsiniz.
 
-- [Removes `TL;DR:` prefix in description](https://github.com/kdeldycke/awesome-engineering-team-management/commit/da298ec1c39fe62fd4553e1a6de0ad4494602c57). Every description is a short summary anyway.
+Alıntı içinde alıntı için tek ' veya çift " ASCII işaretlerini kullanın. Bunları düzgün biçimde dengeli tutun.
 
-- Quotes should be properly delimited with the `“` and `”` curved quotation marks.
+Bir listeyi açıklamaya dönüştürmek için şu biçimi kullanın:
 
-- You can reduce the original text by using an ellipsis in parenthesis `(…)`.
+Maddeyi özetleyen bir açıklama metni. Ve işte orijinal içerikten gelen “üç önemli konu: 1. Falan filan; 2. Falan filan? 3. Falan filan.” hakkında bir liste. Ve sonuca bağlayan biraz daha metin.
 
-- For quoting inside a quote, use single or double `'` and `"` ASCII marks. Keep them properly balanced.
+Bu biçim, okunabilirliğe ve hızlı içerik taramasına yardımcı olan görsel dayanak noktaları sağlar.
 
-- To serialize a list into a description, use the following format:
+Orijinal listedeki bazı maddeleri atlayabilir ve yeniden numaralandırabilirsiniz.
 
-  > Text of a description summarizing the item. And here is a list coming from the original content about **“three important topics: 1. Blah blah blah; 2. Blah blah blah? 3. Blah blah blah.”** And a bit more text to conclude.
+Ancak yeniden sıralama yapmamalısınız.
 
-  This format provides visual anchor points that help readability and quick content scanning.
+Açıklamada ek bir bağlantıya izin verilir. Bu, daha büyük bir kavrama, bir kısaltma tanımına veya referans materyale (kitap, biyografi, …) işaret etmek gibi ender durumlarla sınırlı olmalıdır.
 
-  - You can skip some items from the original list and renumber it.
+Lisans işaretleyicileri
+Araç, veri seti ve proje girdileri için, okuyucuları projenin ticari duruşu hakkında bilgilendirmek amacıyla açıklamanın başına iki emoji’den birini ekleyin. Makaleler, bildiriler, blog yazıları, haber öğeleri ve seçki listeleri işaretlenmez.
 
-  - You shouldn't have to re-order it though.
+💸 — projenin birincil yürütücüsü, bu yazılımın ücretli bir sürümünü satan ticari bir satıcıdır: barındırılan bulut, Enterprise katmanı veya OSS çekirdeğinin üzerine özel modüller. İşaretleyici bilgilendirme amaçlıdır, bir kalite yargısı değildir: okuyucuya bazı gelişmiş özelliklerin (uyumluluk, denetim günlüğü saklama, çok kiracılı eklentiler, entegrasyonlar) OSS dağıtımının dışında kalabileceğini söyler. Satıcı yalnızca destek, SLA veya özellik kısıtlaması olmaksızın yönetilen barındırma satıyorsa (örneğin Keycloak için Red Hat) uygulamayın.
 
-- An additional link in the description is allowed. This must be limited to some rare cases. Like pointing to a bigger concept, an acronym definition, or reference material (book, biography, …).
+🆓 — proje, özellik kısıtlaması yoluyla değer elde eden bir ticari satıcı olmaksızın tamamen açık kaynaklıdır: vakıf yönetiminde (CNCF, Apache Software Foundation, Eclipse), topluluk güdümlü, yanında ücretli bir ürün olmadan yayınlanmış kurumsal-OSS (Lyft’in Cartography’si, Yahoo’nun Athenz’i, Salesforce’un Policy Sentry’si, Microsoft’un Presidio’su) veya yalnızca destek sözleşmeleriyle satılan (Keycloak için Red Hat).
 
-### Licensing markers
+Biçim: - [Proje](url) - 💸 Açıklama. veya - [Proje](url) - 🆓 Açıklama.. İki işaretleyici birbirini dışlar: bir proje ya birini ya diğerini alır, asla ikisini birden değil. Awesome-lint bu biçimi değişmeden kabul eder.
 
-For tool, dataset, and project entries, prefix the description with one of two emoji to inform readers about the project's commercial posture. Articles, papers, blog posts, news items, and curation lists are not marked.
+Editoryal çizgi
+Her listenin genel editoryal çizgisi, giriş kısmında ima edilmiştir.
 
-- 💸 — the project's primary maintainer is a commercial vendor selling a paid version of this software: hosted cloud, Enterprise tier, or proprietary modules on top of the OSS core. The marker is informational, not a quality judgment: it tells the reader that some advanced features (compliance, audit log retention, multi-tenancy add-ons, integrations) may live outside the OSS distribution. Do not apply when the vendor only sells support, SLA, or managed hosting without feature gating (Red Hat for Keycloak, for instance).
+Ayrıca listeye bağlı bazı özel kurallar da vardır:
 
-- 🆓 — the project is fully open-source without a commercial vendor extracting value through feature gating: foundation-governed (CNCF, Apache Software Foundation, Eclipse), community-driven, corporate-OSS released without a paid product alongside (Lyft's Cartography, Yahoo's Athenz, Salesforce's Policy Sentry, Microsoft's Presidio), or sold only with support contracts (Red Hat for Keycloak).
+awesome-engineering-team-management: madde sırası
+Maddeler kabaca şöyle sıralanır:
 
-Format: `- [Project](url) - 💸 Description.` or `- [Project](url) - 🆓 Description.`. The two markers are mutually exclusive: a project gets one or the other, never both. Awesome-lint accepts the format unchanged.
+Önce yazılım geliştiricilere veya yeni yöneticilere hitap eden içerikler bulunur. Erişilebilirliği hedefler, daha geniş kitleye seslenir ve yumuşak bir giriş sunar.
 
-## Editorial line
+Ardından konuyu daha uygulamalı ve ilişkilendirilebilir kılan birkaç gerçek kullanım örneği veya anekdot yer alabilir.
 
-The general editorial line for each list is [hinted in their introduction](https://github.com/kdeldycke/awesome-template#readme).
+Üçüncü olarak, kavramları genelleştirmek, yöntemli çözümler sunmak ve daha geniş düşünme çerçevelerini ortaya koymak için birkaç referans materyal eklenebilir.
 
-There's also some specific rules depending on the list:
+En sonda, uyarıcı öyküler veya kötüleşen koşulların işaret fişekleri olarak yararlı olan en alaycı veya karamsar içerik gelir.
 
-### [`awesome-engineering-team-management`](https://github.com/kdeldycke/awesome-engineering-team-management): items order
+awesome-falsehood: adaylar
+Katkıda bulunmadan önce, eklemek istediğiniz yeni bağlantının iyi bir aday olduğundan emin olun.
 
-Items are roughly ordered like so:
+Aşağıda, awesome-falsehood listesine dahil edilmek için iyi aday olan maddelerin sınırlayıcı olmayan bir listesi bulunmaktadır.
 
-1. At first we'll find content appealing to software developers or new managers. We're reaching for accessibility and targets the wider audience and provide a gentle introduction.
-2. Then we can have a couple of real use-cases or anecdotes, which makes the subject more hands-on and relatable.
-3. Third we might add a couple of reference material to generalize concepts, provide methodical solutions and expose broader thinking frameworks.
-4. At the end comes the most cynical or bleak content, which have some utility as cautionary tales, or as warning signals of deteriorating conditions.
+Yanlış makaleleri
+Yanlış şemasını takip eden makaleler, bu harika listeye dahil edilmek için başlıca adaylardır.
 
-### [`awesome-falsehood`](https://github.com/kdeldycke/awesome-falsehood): candidates
+Bu makaleler, geliştiricilerin bir alan hakkında saf ve basit bir görüşe sahip olduğu hipoteziyle başlar. Ardından programcıların sahip olabileceği bir dizi içten varsayımı sıralar. Her biri kasıtlı olarak yanlıştır ve en iyi biçimlerinde bir karşı örnekle resmedilir.
 
-Before contributing, make sure the new link you'd like to add is a good candidate.
+Bir yanlış listesi, kavramları rafine etmek üzere tasarlanmış bir ilerleyiş olarak kurgulanır. Listenin tamamını okuduktan sonra okuyucu, bir alanın mitlerini çürütürken daha iyi bir genel bakışa sahip olmalı, yaygın tuzaklara işaret etmeli ve inceliklerini göstermelidir.
 
-Here is a non-restrictive list of items which are good candidates for inclusion in the `awesome-falsehood` list.
+Yanlış makaleleri, bir anlamda, gerçek dünya kullanımından gelen kapsamlı uç durumları kapsayan ayrıntılı birim testleri süitidir. Dünya dağınıktır. Bir alanın sanıldığından çok daha karmaşık olduğunu keşfetmek hayal kırıklıklarına ve masa devirmelere (╯°□°)╯︵ ┻━┻ yol açacaktır. Bu, liste için harika bir adayın işaretidir!
 
-#### Falsehood articles
+Yalnızca bir ürüne (ya da hizmete) özgü maddeler içeren makaleler yeterince genel sayılamaz ve kaçınılmalıdır.
 
-Articles following the *falsehood* schema are prime candidates for inclusion in this awesome list.
+Kütüphaneler
+Yukarıdaki yanlış makalelerinin işaret ettiği karmaşıklıkları çözen veya azaltan programlama kütüphaneleri veya modülleri de iyi adaylardır.
 
-These articles starts with the hypothesis that developers have a naive and simple view of a domain. Then proceed to list a set of candid assumptions that might be held by programmers. Each one is intentionally false, and in their best form are illustrated with a counter-example.
+Böylece masaları tekrar yerine koyabiliriz. ┬─┬ ノ( ゜-゜ノ)
 
-A list of falsehood is crafted as a progression that is designed to refine concepts. Having read the whole list of falsehood, the reader should possess a better overview of a domain while dispelling its myths, point out common pitfalls and demonstrate its subtleties.
+Veri yapıları
+Çoğu yanlışı kapsayacak ve ele alacak kadar genel veri modelleri ve yapıları da bu sayfada memnuniyetle karşılanır.
 
-*falsehood* articles are, in a sense, a suite of wordy unit-tests covering extensive edge-cases provided by real-world usage. The world is messy. Discovering a domain to be much more complex than anticipated will lead to frustrations. And cause flipping tables `(╯°□°)╯︵ ┻━┻`. This is the sign of a great candidate for that list!
+SSS
+Seçki sürecini örneklemek için bazı durumlar.
 
-Articles featuring items that are applicable to one product (or a service) and one only can't be considered as generic enough and should be avoided.
+Cümlelerinizi ve paragraflarınızı yeniden yazabilir miyim?
+Evet. Ana dili İngilizce olmayan biriyim, bu yüzden yazdıklarımın bazıları biraz süslü olabilir. İlk metnimin daha kısa, öz ve doğru bir versiyonunu önerebilirseniz, yapın! Bu iyileştirmeler her iki okuyucu türü için de okunabilirliği büyük ölçüde artırır.
 
-#### Libraries
+Listeye YouTube videoları önerebilir miyim?
+Evet, ancak videonun başlangıcını ilgili bir zamana işaretlemeye çalışın. YouTube URL’lerindeki &t=13m30s parametresinde olduğu gibi.
 
-Programming libraries or modules are good candidates too, if they solve or reduce the complexities pointed to by *falsehood* articles above.
+Videodan daha iyisi: yazılı transkripsiyonunun bir bağlantısı. Ya da sunulan noktayı sulandırmıyorsa sunum slaytları.
 
-That way we can put back tables in place. `┬─┬ ノ( ゜-゜ノ)`
+Bir X (Twitter) dizisine bağlantı verebilir miyim?
+Evet, ancak önce yazarın ürettiği içerikte arama yapmaya çalışın: bazen yazar, söylemini daha sindirilebilir bir makaleye dönüştürmüş olabilir. Ona bağlantı vermeyi tercih ederiz.
 
-#### Data structures
+Bağlantı çürümesini nasıl önleyebilirim?
+Bir katkıcının işaret ettiği gibi:
 
-Data models and structures generic enough to cover and address most of the falsehoods are also welcome in this page.
+Buradaki bağlantıların çevrimdışı olma eğilimi var. Bunun uzun vadeli değere sahip bir kaynak olması için, sayfaları arşivleyerek bağlantı çürümesi önlenebilir.
 
-## FAQ
+Bu doğrudur.
 
-Some cases to illustrate the curation process.
+Orijinal URL artık erişilemez durumdaysa, alternatif bir arşivlenmiş/önbelleğe alınmış bağlantı ile değiştirmekte bir sakınca görmem.
 
-### Can I rewrite your sentences and paragraphs?
+Kırık URL’ler sinir bozucudur. Onları tek tek düzelteceğiz. Bazıları yeni bir alan adına taşındı. Bazıları tamamen kayboldu, bu yüzden onları arşivlenmiş bir bağlantı ile değiştireceğiz.
 
-Yes. I'm a non-native speaker, so some of my writings might be a little bit fancy. If you can propose a shorter, to the point, and accurate version of my initial text, go for it! These improvements [adds a lot of readability for both kind of readers](https://github.com/kdeldycke/awesome-falsehood/pull/105).
+Kırık bir bağlantı bulursanız, lütfen düzeltmek için bir PR önerin. Ya da sadece bir konu (issue) olarak bildirin, ben işi yapayım.
 
-### Can I propose YouTube videos for the list?
+Çevrimdışı olan makaleleri nasıl arşivleyeceksiniz?
+Bu soru, onları çevrimdışı olmadan önce arşivlememiz gerektiği paradoksuna işaret eder.
 
-Yes, but try to pin-point the start of the video to a relevant time. Like with the `&t=13m30s` parameter in YouTube URLs.
+İçeriği önleyici olarak arşivlemek için acele yoktur. Başkalarının bunu yapması için teşvikler mevcuttur:
 
-Better than a video: have a link to its written transcript. Or presentation slides if it doesn't dillute the point being made.
+Bu liste, içeriğinin düzenli arşiv tarayıcıları tarafından alınmasına yetecek kadar popülerdir.
 
-### Can I link to an X thread?
+Listedeki popüler içerik, onlara değer veren kullanıcılar tarafından doğal olarak arşivlenir.
 
-Yes, but try to search first in the content produced by the author: sometimes the said author edited its rant into a more digestible article elsewhere. We'll prefer to link to that.
+İçeriğini önemseyen veya bu listenin sağladığı SEO suyundan yararlanan yazarlar, onları orijinal URL’lerinde erişilebilir tutmak için bir teşviğe sahiptir.
 
-### How to prevent link-rot?
+Bu teşviklere rağmen, içeriğin hiçbir arşiv kopyası olmaksızın web’den tamamen kaybolma ihtimali sıfırdan büyüktür. Bu dünyanın sonu değildir. Belki de içerik buna değmezdi ve ilk etapta dahil edilmeye uygun değildi. Bu uç durumu, içerik üzerinde doğal bir seçilim süreci olarak düşünün; bu da doğal seçkiye yardımcı olur.
 
-[As pointed by a contributor](https://github.com/kdeldycke/awesome-engineering-team-management/issues/52):
+Neden etkin olmayan GitHub projeleri kaldırılıyor?
+Bakımı yapılmayan GitHub depoları genellikle sahipleri tarafından arşivlenir. Ancak bazıları fiilen bakımsızdır veya yazarı tarafından açıkça arşivlenmeden olduğu gibi terk edilmiştir.
 
-> The links here have a tendency to go offline. For this to be a resource of long term value, link-rot can be avoided by archiving the pages.
+Her iki durumda da, ele aldıkları alan kalabalıksa ve listede başka depolar referans verilmişse, bağlantı gürültüyü azaltmak için silinmeye iyi bir adaydır.
 
-Which is true.
+Öte yandan, proje başka bir yerde çatallanmış veya yeniden başlatılmışsa, artık yeni konuma işaret edebiliriz.
 
-I have no issue replacing the original URL with an alternative archived/cached link if the original is no longer reachable.
+Ticari projem neden listede yok?
+Muhtemelen temel içerik bir ödeme duvarının arkasında olduğu için. Özellikle çevrimiçi olarak daha kapsamlı ve ücretsiz erişilebilen daha iyi kaynaklar varsa.
 
-Broken URLs are frustrating. We will fix them one by one. Some have been moved to a new domain. Some have completely disappear, so we'll replace them with an [archived link](#url).
+Bu, özellikle SaaS ve diğer lisanslı yazılımlar için geçerlidir. Açık kaynaklı bir proje mevcutsa, ticari çözümler yerine onu işaret etmeyi tercih ederiz.
 
-If you find a broken one, please propose a PR to fix it. Or just report it as an issue and I'll do the work.
+Bu alternatiflerin daha iyi olması gerekmez. İlham alınabilecek kadar iyiyseler veya giriş engeli olmaksızın bir şey başlatıyorlarsa yeterlidir.
 
-### How are you going to archive articles that went offline?
+Dolayısıyla, örtüşen birden fazla projenin olduğu bir kümede, ticari olanları tekrar olarak değerlendirip listeyi sade tutmak için kaldıracağız.
 
-This question points to the paradox that we need to archive them *before* they go offline.
+Ayrıca bkz. Açık kaynaklı projem neden kaldırıldı? — proje teknik olarak açık kaynak olsa bile geçerli olan ağır-açık-çekirdek modeli için.
 
-There is no rush to pre-emptively archive content. Incentives exists for others to do it:
+Açık kaynaklı projem neden kaldırıldı?
+GitHub deposundaki izin verici bir lisans yeterli değildir. Projenin ödeme yapmadan üretimde gerçekten kullanılabilir olup olmadığını da değerlendiririz. Filtrelediğimiz model ağır-açık-çekirdektir: temel özellikleri ücretli bir Enterprise katmanı veya barındırılan bir Cloud eklentisinin arkasına kilitleyen bir OSS kabuğu sunan proje.
 
-- This list is popular enough for its content to be picked up by regular archival crawlers.
-- Popular content in this list are naturally archived by users who value them.
-- Authors who cares about their content, or benefits from the SEO juice this list provides, have an incentive to keep them available at their original URL.
+Temel özellik sayılan şey listenin alanına bağlıdır. Bir kimlik doğrulama veya erişim yönetimi projesi için MFA, SSO protokolleri (SAML, OIDC, LDAP federasyonu), çok kiracılılık, ince taneli izinler, SCIM/dizin senkronizasyonu, denetim günlükleri ve yönetici kullanıcı arayüzü temeldir. Bir veri araçları projesi için eşdeğer çekirdek yetenekler temeldir. Her listenin yürütücüsü, alanla ilgili listeyi SSS’inde veya PR inceleme yorumlarında açıklayacaktır.
 
-Despites these incentives, there is still a non-zero chance for content to disappear entirely from the web, with no [archived copy](#url). That's not the end of the world. Maybe the content wasn't worth it, and not good for inclusion in the first place. Think of this edge-case as a natural selection process on content, which helps natural curation.
+Bunlardan herhangi biri OSS dağıtımında yoksa, özellik başına eklenti olarak satılıyorsa, ayrı bir özel mülk dizinde (OSS lisanslı olmayan bir ee/ klasörü gibi) tutuluyorsa veya MAU başına fiyatlandırılıyorsa, proje aşırı kalabalık bir bölümde gerçek-OSS alternatiflerinin yanında listelenmeyecektir.
 
-### Why removes inactive GitHub projects?
+Birlikte değerlendirilen birkaç daha yumuşak sinyal de listelemeye karşı sayılır:
 
-Unmaintained GitHub repositories are usually [archived by their owners](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories). But some are de-facto unmaintained, or abandoned as-is by their author, without being explicitly archived.
+Satıcının fiyatlandırma sayfası, temel özellik gibi görünen şeyleri ücretli katmanlar olarak listeler.
 
-Either way, if the space they addresses is crowded, and there are other repositories referenced in the list, the link is a good candidate for deletion to reduce noise.
+Proje README’si, bulut için ayrılmış “koruyucu bariyer” veya “premium özellikler”den açıkça söz eder.
 
-On the other hand, if the project has been forked or rebooted elsewhere, we can now point out to the new location.
+OSS sürümünü kendi kendine barındırmak, satıcının yalnızca ücretli bir ürün olarak önceden entegre edilmiş halde sunduğu birkaç ayrı ilkeli bir araya getirmeyi gerektirir.
 
-### Why my commercial project is not in the list?
+Lisans testini geçen ancak hafif-açık-çekirdek kategorisine giren mevcut girdiler (bazı gelişmiş uyumluluk veya dizin-senkronizasyon entegrasyonları kilitli, ancak çekirdek OSS’de çalışır), belirgin bir nişi kapsadıklarında hâlâ listelenebilir. Bu tür girdiler açıklamada 💸 işaretleyicisi ile belirtilir.
 
-Probably because the core content is behind a paywall. Especially if there are better resources online, which are more extensive, and freely accessible.
+Ayrıca bkz. Ticari projem neden listede yok? — hiçbir OSS dağıtımının olmadığı tamamen ücretli durum için.
 
-This is especially true for SaaS and other licensed software. If there is an open-source project available, we'd rather point to that instead of commercial solutions.
+Projem neden etkin olmama nedeniyle kaldırıldı?
+Arşivlenmiş depolara ek olarak, yazarının resmî olarak kullanımdan kaldırdığı projeleri de kaldırırız: README’de kullanıcıları farklı bir projeye yönlendiren bir bildirim veya “yeni projeler artık buna bel bağlamamalı” şeklinde bir kamu açıklaması, yalnızca GitHub arşiv bayrağından daha güçlü bir sinyal olarak değerlendirilir.
 
-These alternatives don't need to be better. They qualify if they're good enough to derives inspiration from, or starts something without barriers to entry.
+OSS deposunun bakımı-yapılan-ama-geliştirilmeyen (yalnızca Dependabot sürüm yükseltmeleri ve telif hakkı rötuşları, şirketin yol haritasının halef ticari üründe olduğu) durumla sonuçlanan satın almalar da aşırı kalabalık bölümlerde kaldırma gerekçesidir.
 
-So for as set of multiple overlapping projects, we will consider commercial ones as duplicates and remove them, to keep the list lean.
+Bağlantım neden reddedildi?
+Bağlantınız reddedildiyse, bu durum PR’ınıza yorum olarak katkıcıya gerekçesiyle birlikte açıklanmış olmalıdır.
 
-See also [Why my open-source project was removed?](#why-my-open-source-project-was-removed) for the open-core-heavy pattern, which applies even when the project is technically open-source.
+Sıklıkla örtüşen bazı ret nedenleri şunlardır:
 
-### Why my open-source project was removed?
+Tekrar içerik
 
-A permissive license on the GitHub repo is not enough. We also evaluate whether the project is genuinely usable in production without paying. The pattern we filter out is *open-core-heavy*: a project that ships an OSS shell while gating essential features behind a paid Enterprise tier or a hosted Cloud add-on.
+Özgünlük eksikliği
 
-What counts as an *essential feature* depends on the domain of the list. For an authentication or access-management project, MFA, SSO protocols (SAML, OIDC, LDAP federation), multi-tenancy, fine-grained permissions, SCIM/directory sync, audit logs, and admin UI are essential. For a data tooling project, the equivalent core capabilities are essential. The maintainer for each list will spell out the domain-specific list in its FAQ or in PR review comments.
+Mevcut içeriğin yeniden ısıtılması
 
-When any of these is absent from the OSS distribution, sold as a per-feature add-on, kept in a separate proprietary directory (like a non-OSS-licensed `ee/` folder), or priced per-MAU, the project will not be listed alongside true-OSS alternatives in an overcrowded section.
+Yeni bağlantının mevcut külliyata ne kattığını açıklayan bir motivasyonun olmaması
 
-A few softer signals, evaluated together, also count against a listing:
+Daha fazla içeriğe değil, daha fazla seçkiye ihtiyaç duyan aşırı kalabalık bölüm
 
-- The vendor's pricing page lists what looks like core features as paid tiers.
-- The project README explicitly mentions a "protective barrier" or "premium features" reserved for cloud.
-- Self-hosting the OSS version requires assembling several separate primitives the vendor only ships pre-integrated as a paid product.
+Yeterince genel olmama veya tek bir ürün ya da şirkete fazla özgü olma
 
-Existing entries that pass the licensing test but fall into open-core-light (some advanced compliance or directory-sync integrations gated, but the core works in OSS) may still be listed when they cover a distinct niche. Such entries are flagged with the 💸 marker in the description.
+Listeyi SEO için sömüren pazarlama metni
 
-See also [Why my commercial project is not in the list?](#why-my-commercial-project-is-not-in-the-list) for the fully-paywalled case where no OSS distribution exists.
+Aynı ticari alan adına işaret eden çok fazla URL (2 bağlantı yeterlidir)
 
-### Why my project was removed for inactivity?
+Katkıcının sorulan sorulara geri bildirim vermemesi
 
-In addition to [archived repositories](#why-removes-inactive-github-projects), we also remove projects whose author has formally retired them: a notice in the README pointing users to a different project, or a public statement that "new projects should no longer rely on this", is treated as a stronger signal than the GitHub archive flag alone.
+Bu katkı yönergelerinden sapma
 
-Acquisitions that result in the OSS repo being maintained-but-not-developed (Dependabot bumps and copyright touch-ups only, with the company's roadmap on a successor commercial product) are also grounds for removal in overcrowded sections.
+Davranış kurallarının ihlali
 
-### Why my link was rejected?
+Bir bağlantıyı listeye nasıl zorla sokabilirim?
+Katkınız reddedildiyse, seçki kurallarını aşmanın bir yolu vardır. Bir sponsorluk satın alarak ürününüzü, logonuzu ve bağlantınızı bu deponun en üstüne yerleştirebilirsiniz! 🤗 Tıpkı Descope’un awesome IAM listesinde bir yıl boyunca yaptığı gibi.
 
-If your link was rejected, it must have been motivated and explained to the contributor as a comment to your PR.
+awesome-falsehood için SSS
+Bu sorular Awesome Falsehood projesine özeldir.
 
-Some reasons for rejection, which often overlaps, includes:
+Neden yanlışları doğrudan listeye kopyalamıyorsunuz?
+Tüm yanlışları depoda derlemek iyi bir fikir olabilir. Topluluğun onları sürdürmesine ve zenginleştirmesine olanak tanırdı. Ayrıca, çoğu harici makale bir yanlışın neden yanlış olduğunu gösterme veya açıklama zahmetine girmediğinden genel kaliteyi de artırabilirdi.
 
-- duplicate content
-- lack of originality
-- rehash of existing content
-- no motivation to explain what the new link adds to the existing corpus
-- overcrowded section that [does not need more content, but more curation](https://github.com/kdeldycke/awesome-iam/pull/76)
-- [not generic enough, or too specific to a single product or company](https://github.com/kdeldycke/awesome-falsehood/pull/31#issuecomment-407667679)
-- marketing copy made to juice the list for SEO
-- [too much URLs already pointing out to the same commercial domain name](https://github.com/kdeldycke/awesome-iam/pull/179#issuecomment-3023031941) (2 links are enough)
-- lack of feedback from the contributor on raised questions
-- deviance from these contribution guidelines
-- violation of the [code of conduct](code-of-conduct.md)
+Ancak bu büyük bir çabadır, bu yüzden işleri basit tutmak adına bu listede yalnızca harici makalelerin bir koleksiyonunu yapıyoruz. Bu arada, yanlışlar eklemek isterseniz, potansiyel katkıcılardan bunları başka bir yerde barındırmalarını isteyeceğim.
 
-### How can I force a link into the list?
+Ayrıca, ham yanlışları bu depoda barındırmak zorunda kalsaydık, lisansı kontrol etmemiz ve orijinal yazardan izin istememiz gerekebilirdi.
 
-If your contribution has been declined, there is a way to bypass the curation rules. You can [purchase a sponsorship](https://github.com/sponsors/kdeldycke) and have your product, logo and link at the top of this repository! 🤗 Like [Descope did for a year](https://twitter.com/kdeldycke/status/1676963147104784386) on the [awesome IAM list](https://twitter.com/kdeldycke/status/1676963147104784386).
 
-## FAQ for [`awesome-falsehood`](https://github.com/kdeldycke/awesome-falsehood)
 
-This questions are specifics to the [Awesome Falsehood](https://github.com/kdeldycke/awesome-falsehood) project.
 
-### Why don't you copy the falsehoods in the list?
 
-This might be a good idea to compile all falsehoods in the repository. It would allow the community to maintain them, and enrich them. It could also improve the overall quality as most external articles don't make the effort to illustrate or explain why a falsehood is a falsehood.
-
-But that is a big endeavor, so to keep things simple, we just make a collection of external articles in this list. In the mean time, if you'd like to add falsehoods, I will ask potential contributors to [host them elsewhere](https://github.com/kdeldycke/awesome-falsehood/issues/46).
-
-Also, if we had to host the raw falsehoods in this repository, we might have to [check on the licence and seek permission from the original author](https://github.com/kdeldycke/awesome-falsehood/issues/24).
