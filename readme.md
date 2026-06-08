@@ -1,286 +1,264 @@
 <!--lint disable awesome-heading-->
-
 <p align="center">
   <a href="https://github.com/kdeldycke/awesome-falsehood/">
     <img src="https://github.com/kdeldycke/awesome-falsehood/raw/main/assets/awesome-falsehood-header.jpg" alt="Awesome Falsehood header image">
   </a>
 </p>
+Dünyanın mantığı tüm doğruluk ve yanlışlıktan önce gelir.  
+— Ludwig Wittgenstein[1]
 
-<p align="center">
-  <a href="https://github.com/sponsors/kdeldycke">
-    <strong>Your brand → here 🚀</strong>
-    <br/>
-    <sup>SEO is dead. Place your product here to target AI's training data.</sup>
-  </a>
-</p>
+Programcıların inandığı yanlışların derlendiği, özenle seçilmiş bir Harika listesi. Yanlış, başlangıçta doğru olduğuna inandığınız, ancak gerçekte yanlış olduğu kanıtlanmış bir fikirdir.
 
----
+Örnek fikir: geçerli bir e‑posta adresi tam olarak bir @ karakteri içerir. Böylece e‑posta alanı doğrulama mantığınızı bu kurala göre yazarsınız. Doğru mu? Yanlış! Gerçek: e‑postalar birden fazla @ işareti içerebilir. Bu yüzden uygulamanız buna izin vermelidir. Başlangıçtaki fikir, inandığınız bir yanlıştır.
 
-<p align="center">
-  <a href="https://github.com/kdeldycke/awesome-falsehood#readme.md" hreflang="en"><img src="https://img.shields.io/badge/lang-English-blue?style=flat-square" lang="en" alt="English"></a>
-  <a href="https://github.com/kdeldycke/awesome-falsehood/blob/main/readme.zh.md" hreflang="zh"><img src="https://img.shields.io/badge/lang-中文-blue?style=flat-square" lang="zh" alt="中文"></a>
-</p>
+Aşağıda listelenen yanlış makaleleri, daha iyi bir programcı olmanıza yardımcı olmak için bilmeniz gereken kapsamlı bir yanlış inanışlar listesi sunar.
 
-<p align="center">
-  <i>The logic of the world is prior to all truth and falsehood.</i><br>
-  — Ludwig Wittgenstein<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
-</p>
-
-A curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) list of falsehoods programmers believe in. A *falsehood* is an ***idea* that you initially believed was true**, but in reality, it is **proven to be false**.
-
-E.g. of an *idea*: valid email address exactly has one `@` character. So, you will use this rule to implement your email-field validation logic. Right? Wrong! The *reality* is: emails can have multiple `@` chars. Therefore your implementation should allow this. The initial *idea* is a falsehood you believed in.
-
-The *falsehood* articles listed below will have a comprehensive list of those false-beliefs that you should be aware of, to help you become a better programmer.
-
-## Contents
-
-<!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
+## İçindekiler
 
 - [Meta](#meta)
-- [Arts](#arts)
-- [Business](#business)
-- [Cryptocurrency](#cryptocurrency)
-- [Dates and Time](#dates-and-time)
-- [Education](#education)
-- [Emails](#emails)
-- [Geography](#geography)
-- [Human Identity](#human-identity)
-- [Internationalization](#internationalization)
-- [Management](#management)
-- [Multimedia](#multimedia)
-- [Networks](#networks)
-- [Phone Numbers](#phone-numbers)
-- [Postal Addresses](#postal-addresses)
-- [Science](#science)
-- [Society](#society)
-- [Software Engineering](#software-engineering)
-- [Transportation](#transportation)
-- [Typography](#typography)
-- [Video Games](#video-games)
+- [Sanat](#sanat)
+- [İş Dünyası](#i̇ş-dünyası)
+- [Kripto Para](#kripto-para)
+- [Tarih ve Saat](#tarih-ve-saat)
+- [Eğitim](#eğitim)
+- [E‑postalar](#e-postalar)
+- [Coğrafya](#coğrafya)
+- [İnsan Kimliği](#i̇nsan-kimliği)
+- [Uluslararasılaştırma](#uluslararasılaştırma)
+- [Yönetim](#yönetim)
+- [Çoklu Ortam](#çoklu-ortam)
+- [Ağlar](#ağlar)
+- [Telefon Numaraları](#telefon-numaraları)
+- [Posta Adresleri](#posta-adresleri)
+- [Bilim](#bilim)
+- [Toplum](#toplum)
+- [Yazılım Mühendisliği](#yazılım-mühendisliği)
+- [Ulaşım](#ulaşım)
+- [Tipografi](#tipografi)
+- [Video Oyunları](#video-oyunları)
 - [Web](#web)
 
-<!-- mdformat-toc end -->
+### Meta
 
-## Meta
+- [Programcıların İnandığı Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-programmers-believe) – Yaygın yanlışların kısa bir listesi. Yanlışlar dünyasına harika bir genel bakış ve hızlı giriş.
+- [Programlama Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-programming) – Programlama ve programcıların kendileri hakkında alçakgönüllü ve eğlenceli bir liste.
+- [Yanlış Listeleri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-falsehoods-lists) – Bu yanlışların nasıl ele alınmaması gerektiğine dair meta yorum.
 
-- [Falsehoods Programmers Believe](https://spaceninja.com/2015/12/07/falsehoods-programmers-believe/) - A brief list of common falsehoods. A great overview and quick introduction into the world of falsehoods.
-- [Falsehoods about Programming](https://chiselapp.com/user/ttmrichter/repository/gng/doc/trunk/output/falsehoods.html) - A humbling and fun list on programming and programmers themselves.
-- [Falsehoods about Falsehoods Lists](https://kevin.deldycke.com/2016/falsehoods-programmers-believe-about-falsehoods-lists) - Meta commentary on how these falsehoods shouldn't be handled.
+### Sanat
 
-## Arts
+- [Müzik Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-music) – Müziği kodlarken yapılabilecek yanlış varsayımlar.
+- [Sanat Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-art) – Sanatla ilgili yaygın yanlış anlamalar.
 
-- [Falsehoods about Music](https://literateprogrammer.blogspot.fr/2016/07/falsehoods-programmers-believe-about.html) - False assumption that might be made in codifying music.
-- [Falsehoods about Art](http://artsy.github.io/blog/2018/04/18/programmer-misconceptions-about-art/) - Common misconceptions about art.
+### İş Dünyası
 
-## Business
+- [Çevrimiçi Alışveriş Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-online-shopping) – Fiyatlar, para birimleri ve envanteri kapsar.
+- [Fiyatlar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-prices) – Para birimleri, tutarlar ve yerelleştirmeyi kapsar.
+- [IBAN Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-ibans) – Uluslararası Banka Hesap Numaraları uluslararası değildir.
+- [Ekonomi Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-economics) – Ekonomi basit ya da rasyonel değildir.
+- [Etsy'nin Muhasebe Sistemindeki Ondalık Nokta Hatası](https://github.com/kdeldycke/awesome-falsehood#decimal-point-error-in-etsys-accounting-system) – Muhasebe yazılımında tiplerin önemi: ondalık noktayı kaçırmak 100 kat fazla ücretlendirmeye yol açar.
+- [Yirmi beş bin dolarlık komik para](https://github.com/kdeldycke/awesome-falsehood#twenty-five-thousand-dollars-of-funny-money) – Google Ads’te yukarıdaki hatanın aynısı; sentler ile dolarları ayırmanın tehlikesi. 250$’lık dahili kupon 25.000$’a dönüştü. Tavsiyem: parasal değerler için tamsayı ve kayan noktalı sayılardan kurtulun. Ondalıklı (decimal) kullanın. Ya da string’lere dönüp ayrıştırın, doğrulamayın.
+- [“Sistem bir milyar doları kaldıramaz”](https://github.com/kdeldycke/awesome-falsehood#the-system-cant-handle-a-billion-dollars) – Yapay zeka patlamasının ortasında Meta’daki çılgın tazminatlar ERP’leri çökertiyor.
+- [Şirket adlarındaki < ve > karakterleri XSS saldırılarına yol açıyor](https://github.com/kdeldycke/awesome-falsehood#characters--and--in-company-names-lead-to-xss-attacks) – İngiltere’de şirketlerin özel karakterlerle tescil edilmesine izin verildiği için bir hacker `\"><SCRIPT SRC=MJT.XSS.HT></SCRIPT> LTD` yanında `; DROP TABLE "COMPANIES";-- LTD`, `BETTS &AMP; TWINE LTD` ve `SAFDASD & SFSAF \' SFDAASF\" LTD` şirketlerini kaydettirdi.
+- [Şirket adlarının ayrıntıları](https://github.com/kdeldycke/awesome-falsehood#minutiae-of-company-names) – Delaware Eyaleti ile IRS kurallarının nasıl örtüşmediği.
+- [CLDR para birimi tanımları](https://github.com/kdeldycke/awesome-falsehood#cldr-currency-definitions) – 🆓 İsyanlar, işgaller, yeni anayasalar ve yavaş planlı geçişler nedeniyle para birimi geçerlilik tarih aralıkları çakışır.
+- [tax](https://github.com/kdeldycke/awesome-falsehood#tax) – 🆓 PHP 5.4+ vergi yönetim kütüphanesi.
 
-- [Falsehoods about Online Shopping](https://wiesmann.codiferes.net/wordpress/archives/22201) - Covers prices, currencies and inventory.
-- [Falsehoods about Prices](https://gist.github.com/rgs/6509585) - Covers currencies, amounts and localization.
-- [Falsehoods about IBANs](https://github.com/globalcitizen/php-iban/blob/master/docs/FALSEHOODS.md) - International Bank Account Numbers are not international.
-- [Falsehoods about Economics](http://exple.tive.org/blarg/2016/09/22/falsehoods-programmers-believe-about-economics/) - Economics are not simple or rational.
-- [Decimal Point Error in Etsy's Accounting System](https://web.archive.org/web/20230615151102/https://old.reddit.com/r/Etsy/comments/hz4877/if_you_are_an_etsy_seller_do_not_purchase_postage/) - The importance of types in accounting software: missing the decimal point ends up with 100x over-charges.
-- [Twenty five thousand dollars of funny money](https://web.archive.org/web/20250326135824/http://rachelbythebay.com/w/2022/12/02/25k/) - Same error as above at Google Ads, or the danger of separating your pennies from your dollars, where $250 internal coupons turned into $25,000. My advice: [get rid of integers and floats for monetary values. Use decimals. Or fallback to strings and parse them, don't validate.](https://twitter.com/kdeldycke/status/1599113889093890049)
-- [“The system can’t handle a billion dollars”](https://xcancel.com/signulll/status/1950294195039838480) - Insane compensation at Meta in the middle of the AI-boom breaks ERPs.
-- [Characters `<` and `>` in company names lead to XSS attacks](https://forum.aws.chdev.org/t/cross-site-scripting-xss-software-attack/3355) - Because [UK allows companies to be registered with special characters](https://www.legislation.gov.uk/uksi/2015/17/schedule/1/made), a hacker leveraged them to register `\"><SCRIPT SRC=MJT.XSS.HT></SCRIPT> LTD`, but also `; DROP TABLE "COMPANIES";-- LTD`, `BETTS &AMP; TWINE LTD` and `SAFDASD & SFSAF \' SFDAASF\" LTD`.
-- [Minutiae of company names](https://twitter.com/nthnmsmth/status/1587880523124408322) - How the rules of the State of Delaware and the IRS does not intersects.
-- [CLDR currency definitions](https://github.com/unicode-org/cldr/blob/release-40/common/supplemental/supplementalData.xml#L87-L94) - 🆓 Currency validity date ranges overlap due to revolts, invasions, new constitutions, and slow planned adoption.
-- [`tax`](https://github.com/commerceguys/tax) - 🆓 A PHP 5.4+ tax management library.
+### Kripto Para
 
-## Cryptocurrency
+- [Bitcoin Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-bitcoin) – Bitcoin’e dair hatalı bakış açıları listesi.
+- [Ethereum Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-ethereum) – Sözleşme programlamada yanlış anlamalar ve yaygın tuzaklar.
 
-- [Falsehoods about Bitcoin](https://github.com/theborakompanioni/spring-boot-bitcoin-starter/blob/master/docs/FALSEHOODS.md) - A list of mistaken perspectives on Bitcoin.
-- [Falsehoods about Ethereum](https://gist.github.com/spalladino/a349f0ca53dbb5fc3914243aaf7ea8c6) - Misconceptions and common pitfalls in contract programming.
+### Tarih ve Saat
 
-## Dates and Time
+- [Zaman Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-time) – Tarih ve saat üzerine ufuk açıcı makale.
+- [Zaman Hakkında Daha Fazla Yanlış](https://github.com/kdeldycke/awesome-falsehood#more-falsehoods-about-time) – Yukarıdaki makalenin 2. bölümü.
+- [Zaman ve Saat Dilimleri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-time-and-time-zones) – Saat dilimlerine vurgu yapan bir başka zaman yanlışları derlemesi.
+- [Zaman Hakkında Yanlışların Eleştirisi](https://github.com/kdeldycke/awesome-falsehood#critique-of-falsehoods-about-time) – İlk makaleyi ele alır, her yanlışa daha fazla bağlam ve dış kaynaklarla açıklama getirir.
+- [Unix Zamanı Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-unix-time) – Artık saniyeye dikkat!
+- [Saat Dilimleri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-time-zones) – DST geçişlerinin uç durumlarına dair güzel noktalar içerir.
+- [Sizin Takvime Dair Yanılgınız Şunu Düşünmek…](https://github.com/kdeldycke/awesome-falsehood#your-calendrical-fallacy-is-thinking) – iOS ve macOS geliştiricileri topluluğu tarafından hazırlanmış, ara ekleme ve kültürel etkiyi kapsayan liste.
+- [Zaman Dilimi Veritabanı](https://github.com/kdeldycke/awesome-falsehood#time-zone-database) – 🆓 Dünya çapında birçok temsili konum için yerel zamanın tarihçesini temsil eden kod ve veri.
+- [Zamanın Uzun ve Acılı Tarihi](https://github.com/kdeldycke/awesome-falsehood#the-long-painful-history-of-time) – Zaman ölçümündeki tuhaflıkların çoğu tarihte bir açıklama bulur.
+- [Bir Takvim Reformu Öneriyorsunuz](https://github.com/kdeldycke/awesome-falsehood#you-advocate-a-calendar-reform) – Fikriniz işe yaramayacak. Bu makale nedenini anlatıyor.
+- [Saat Dilimlerini Kaldırmak İstiyorsunuz](https://github.com/kdeldycke/awesome-falsehood#so-you-want-to-abolish-time-zones) – Saat dilimlerini kaldırmak iyi bir fikir gibi gelebilir, ancak bunu pek de öyle olmaktan çıkaran epeyce karmaşıklık var.
+- [Zaman ve Saat Dilimleri Sorunu](https://github.com/kdeldycke/awesome-falsehood#the-problem-with-time--timezones) – Mümkünse neden saat dilimleriyle asla uğraşmamanız gerektiğini anlatan bir video.
+- [Çalışma Bakanlığı'nın 26.000$ Fazla Tahsilatı](https://github.com/kdeldycke/awesome-falsehood#26000-overcollection-by-labor-department) – Yanlış takvim hesaplamasının sonucu.
+- [RFC-3339 vs ISO-8601](https://github.com/kdeldycke/awesome-falsehood#rfc-3339-vs-iso-8601) – İki standardın formatlarından oluşan dev bir liste, nasıl örtüştükleri ve canlı örnekler.
+- [ISO-8601, YYYY, yyyy ve yılınız neden yanlış olabilir](https://github.com/kdeldycke/awesome-falsehood#iso-8601-yyyy-yyyy-and-why-your-year-may-be-wrong) – Tarihin string biçimlendirmesi zordur.
+- [UTC Herkes İçin Yeterli, değil mi?](https://github.com/kdeldycke/awesome-falsehood#utc-is-enough-for-everyone-right) – Tarih ve saatle (özellikle UTC) ilgili muhtemelen düşünmediğiniz uç durumlar var.
+- [UTC Saklamak Gümüş Bir Kurşun Değildir](https://github.com/kdeldycke/awesome-falsehood#storing-utc-is-not-a-silver-bullet) – “Tarihleri UTC olarak saklayın” her zaman doğru yaklaşım değildir.
+- [UT1, TAI ve UTC Arasında Nasıl Seçim Yapılır](https://github.com/kdeldycke/awesome-falsehood#how-to-choose-between-ut1-tai-and-utc) – SI saniyeleri, dünya dönüşüyle senkronizasyon, artık saniyelerden kaçınma önceliklerinize bağlıdır.
+- [Neden bu iki zamanı (1927'de) çıkarmak garip bir sonuç veriyor?](https://github.com/kdeldycke/awesome-falsehood#why-is-subtracting-these-two-times-in-1927-giving-a-strange-result) – Hem karmaşık tarihi saat dilimleri hem de tarihi tarihlerin yazılımın yeni sürümleri tarafından nasıl yeniden yorumlanabileceği hakkında meşhur Stack Overflow cevabı.
+- [Kritik ve Önemli Tarihler](https://github.com/kdeldycke/awesome-falsehood#critical-and-significant-dates) – Y2K’dan Unix zaman damgasının 32 bit taşmasına, sisteme bağlı olarak dikkat edilmesi gereken özel tarihlerin listesi.
+- [“Vermont’ta bir komüne gidiyorum ve bir mevsimden daha kısa hiçbir zaman birimiyle uğraşmayacağım.”](https://github.com/kdeldycke/awesome-falsehood#im-going-to-a-commune-in-vermont-and-will-deal-with-no-unit-of-time-shorter-than-a-season) – 70’lerde bir mühendisin saniye altı zamanlama endişeleriyle çok uğraştıktan sonra terminaline bıraktığı not. Kaynak: *The Soul of a New Machine*.
 
-- [Falsehoods about Time](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time) - Seminal article on dates and time.
-- [More Falsehoods about Time](http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time) - Part. 2 of the article above.
-- [Falsehoods about Time and Time Zones](https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html) - Another takes on time-related falsehoods, with an emphasis on time zones.
-- [Critique of Falsehoods about Time](https://gist.github.com/thanatos/eee17100476a336a711e) - Takes on the first article above and provides an explanation of each falsehood, with more context and external resources.
-- [Falsehoods about Unix Time](https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/) - Mind the leap second!
-- [Falsehoods about Time Zones](https://www.zainrizvi.io/blog/falsehoods-programmers-believe-about-time-zones/) - Has some nice points regarding the edge-cases of DST transitions.
-- [Your Calendrical Fallacy Is Thinking…](http://yourcalendricalfallacyis.com) - List covering intercalation and cultural influence, made by a community of iOS and macOS developers.
-- [Time Zone Database](https://www.iana.org/time-zones) - 🆓 Code and data that represent the history of local time for many representative locations around the globe.
-- [The Long, Painful History of Time](http://naggum.no/lugm-time.html) - Most of the idiosyncrasies in timekeeping can find an explanation in history.
-- [You Advocate a Calendar Reform](https://qntm.org/calendar) - Your idea will not work. This article tells you why.
-- [So You Want to Abolish Time Zones](https://qntm.org/abolish) - Abolishing timezones may sound like a good idea, but there are quite a few complications that make it not quite so.
-- [The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY) - A video about why you should never, ever deal with timezones if you can help it.
-- [\$26,000 Overcollection by Labor Department](http://digital.vpr.net/post/rounding-error-computer-code-leads-26000-overcollection-labor-department) - The consequence of wrong calendar accounting.
-- [RFC-3339 vs ISO-8601](https://ijmacd.github.io/rfc3339-iso8601/) - An giant list of formats from the two standards, how they overlaps, and live examples.
-- [ISO-8601, `YYYY`, `yyyy`, and why your year may be wrong](https://web.archive.org/web/20200216181551/https://ericasadun.com/2018/12/25/iso-8601-yyyy-yyyy-and-why-your-year-may-be-wrong/) - String formatting of date is hard.
-- [UTC is Enough for everyone, right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right) - There are edge cases about dates and time (specifically UTC) that you probably haven't thought of.
-- [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/) - “Just store dates in UTC” is not always the right approach.
-- [How to choose between UT1, TAI and UTC](https://news.ycombinator.com/item?id=28047376) - Depends on your priorities between SI seconds, earth rotation sync, leap seconds avoidance.
-- [Why is subtracting these two times (in 1927) giving a strange result?](https://web.archive.org/web/20241124114705/https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r/6841479#answer-6841479) - Infamous Stack Overflow answer about both complicated historical timezones, and how historical dates can be re-interpreted by newer versions of software.
-- [Critical and Significant Dates](https://web.archive.org/web/20150908004245/http://www.merlyn.demon.co.uk/critdate.htm) - From Y2K to the overflow of 32-bit seconds from Unix epoch, a list of special date to watch for depending on the system.
-- “I'm going to a commune in Vermont and will deal with no unit of time shorter than a season.” - Is the note left on his terminal by a quitting engineer in the 70s, after too much effort toiling away on sub-second timing concerns. Source: [The Soul of a New Machine](https://www.amazon.com/dp/0316491705?&linkCode=ll1&tag=kevideld-20&linkId=ec2881e22fb26c2d43de0daeebd5424d&language=en_US&ref_=as_li_ss_tl).
+### Eğitim
 
-## Education
+- [Bilgisayar Bilimi Öğrencilerinin Mezun Olurken (Hâlâ) İnandığı Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-cs-students-still-believe-upon-graduating) – Sadece bilgisayar bilimi öğrencilerinin değil, şaşırtıcı biçimde bazen daha iyisini bilmeleri gerekirken bile hatalı biçimde inandıkları şeylerin listesi.
+- [Doktora sonrası mitleri](https://github.com/kdeldycke/awesome-falsehood#postdoc-myths) – “Doktora sonrası araştırmacılar hakkında söylenen, yazılan ve inanılan pek çok şey doğru değildir.”
 
-- [Falsehoods CS Students (Still) Believe Upon Graduating](https://www.netmeister.org/blog/cs-falsehoods.html) - A list of things (not only) computer science students tend to erroneously and at times surprisingly believe even though they (probably) should know better.
-- [Postdoc myths](https://www.cs.kent.ac.uk/people/staff/srk21/blog/2019/12/02/) - “Lots of things are said, written and believed about postdoctoral researchers that are simply not true.”
+### E‑postalar
 
-## Emails
+- [E‑posta Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-email) – Adresler, içerik ve teslimat üzerine.
+- [RFC'yi Okuyana Kadar Bir E‑posta Adresini Nasıl Doğrulayacağımı Biliyordum](https://github.com/kdeldycke/awesome-falsehood#i-knew-how-to-validate-an-email-address-until-i-read-the-rfc) – RFC-822’ye göre geçerli olduğu tahmin edilemeyen karmaşık örnekler sunar.
+- [Yani e‑posta adreslerini doğrulayabileceğinizi mi düşünüyorsunuz (FOSDEM 2018)](https://github.com/kdeldycke/awesome-falsehood#so-you-think-you-can-validate-email-addresses-fosdem-2018) – Uç durum e‑posta adreslerinin ve neden regex kullanarak ayrıştırmamanız gerektiğinin sunumu.
+- [E‑posta Doğrulama Mantığınız Yanlış](https://github.com/kdeldycke/awesome-falsehood#your-e-mail-validation-logic-is-wrong) – Bir e‑posta adresinde izin verilen çeşitli şaşırtıcı şeylerin özeti.
+- [libvldmail](https://github.com/kdeldycke/awesome-falsehood#libvldmail) – 🆓 E‑posta adresleri için RFC tabanlı kontroller uygulayan bir kütüphane.
 
-- [Falsehoods about Email](https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email) - On addresses, content and delivery.
-- [I Knew How to Validate an Email Address Until I Read the RFC](https://haacked.com/archive/2007/08/21/i-knew-how-to-validate-an-email-address-until-i.aspx/) - Provides intricate examples that are unsuspected valid email addresses according the RFC-822.
-- [So you think you can validate email addresses (FOSDEM 2018)](https://fosdem.org/2018/schedule/event/email_address_quiz/) - Presentation of edge-case email addresses and why you should not use regex to parse them.
-- [Your E-Mail Validation Logic is Wrong](https://www.netmeister.org/blog/email.html) - A summary of the various, surprising things that are allowed in an email address.
-- [`libvldmail`](https://github.com/dertuxmalwieder/libvldmail) - 🆓 A library that implements RFC-based checks for e-mail addresses.
+### Coğrafya
 
-## Geography
+- [Coğrafya Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-geography) – Yerler, adları ve konumları üzerine.
+- [Haritalar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-maps) – Koordinatlar, projeksiyon ve CBS'yi kapsar.
+- [Hava Durumu Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-weather) – Hava durumu konuma bağlıdır ve bu nedenle uç durumlarla doludur.
+- [Koordinat Sistemlerinden Nefret Ediyorum](https://github.com/kdeldycke/awesome-falsehood#i-hate-coordinate-systems) – Konumsal uygulayıcılar için koordinat sistemleriyle ilgili yaygın sorunları teşhis ve düzeltme kılavuzu.
+- [Japonya'daki en çılgın 5 kanji yer adı](https://github.com/kdeldycke/awesome-falsehood#top-5-most-insane-kanji-place-names-in-japan) – “Japonların bile okumakta zorlandığı özel bir kanji grubu var: yer adları.”
 
-- [Falsehoods about Geography](https://wiesmann.codiferes.net/wordpress/archives/15187) - Takes on places, their names and locations.
-- [Falsehoods about Maps](https://web.archive.org/web/20250516080728/http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/) - Covers coordinates, projection and GIS.
-- [Falsehoods about Weather](https://shkspr.mobi/blog/2024/06/falsehoods-programmers-believe-about-weather/) - Weather is location-dependent, and so full of edge-cases.
-- [I Hate Coordinate Systems](https://ihatecoordinatesystems.com) - A guide for geospatial practitioners on diagnosing and fixing common issues with coordinate systems.
-- [Top 5 most insane kanji place names in Japan](https://web.archive.org/web/20210310050932/https://soranews24.com/2016/12/01/w-t-f-japan-top-5-most-insane-kanji-place-names-in-japan%E3%80%90weird-top-five%E3%80%91/) - “There's one special group of kanji that's hard even for Japanese people to read: place names.”
+### İnsan Kimliği
 
-## Human Identity
+- [İsimler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-names) – Her şeyi başlatan makale.
+- [İsimler Hakkında Yanlışlar – Örneklerle](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-names--with-examples) – Yukarıdaki makalenin bu kez ayrıntılı açıklamalarla gözden geçirilmiş hali.
+- [Biyometri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-biometrics) – Parmak izleri benzersiz değildir.
+- [Aileler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-families) – Bir aileyi katı kurallarla gerçekten tanımlayamazsınız.
+- [Cinsiyet Hakkında Yanlışlar: #1](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-gender-1) & [#2](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-gender-2) – Cinsiyet insan kimliğinin bir parçasıdır ve kendi inceliklerine sahiptir.
+- [Benim Hakkımda Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-me) – İsimler, cinsiyet ve uluslararasılaştırmanın kesişimindeki sorunlar.
+- [Eşcinsel Evlilik: Veritabanı Mühendisliği Perspektifi](https://github.com/kdeldycke/awesome-falsehood#gay-marriage-the-database-engineering-perspective) – Cinsiyet, adlandırma ve ilişkiler hakkındaki yanlışların çoğunu ele alarak bir evlilik veritabanında nasıl saklama yapılır.
+- [Dünya Genelinde Kişisel İsimler](https://github.com/kdeldycke/awesome-falsehood#personal-names-around-the-world) – İnsanların isimleri dünya çapında nasıl farklılık gösterir ve bunun Web için sonuçları nelerdir?
+- [XKCD #327: Bir Annenin İstismarları](https://github.com/kdeldycke/awesome-falsehood#xkcd-327-exploits-of-a-mom) – Bir yanlışın uygulanmasının güvenlik açıklarına nasıl yol açabileceğine dair komik bir örnek.
+- [Merhaba, ben Bay Null. Adım Beni Bilgisayarlara Görünmez Kılıyor](https://github.com/kdeldycke/awesome-falsehood#hello-im-mr-null-my-name-makes-me-invisible-to-computers) – Uygulanan bir yanlışın birinin hayatını nasıl olumsuz etkilediğine dair gerçek yaşam örneği.
+- [HL7 v3 RIM](https://github.com/kdeldycke/awesome-falsehood#hl7-v3-rim) – İnsan isimlerini temsil etmek için esnek bir veri modeli.
+- [Apple iOS NSPersonNameComponentsFormatter](https://github.com/kdeldycke/awesome-falsehood#apple-ios-nspersonnamecomponentsformatter) – Bir kişinin adının bileşenlerinin yerelleştirilmiş gösterimleri.
 
-- [Falsehoods about Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) - The article that started it all.
-- [Falsehoods about Names – With Examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/) - A revisited version of the article above, this time with detailed explanations.
-- [Falsehoods about Biometrics](https://shkspr.mobi/blog/2021/01/falsehoods-programmers-believe-about-biometrics/) - Fingerprints are not unique.
-- [Falsehoods about Families](https://shkspr.mobi/blog/2017/03/falsehoods-programmers-believe-about-families/) - You can't really define a family with strict rules.
-- Falsehoods about Gender: [#1](https://gist.github.com/garbados/f82604ea639e0e47bf44) & [#2](https://medium.com/gender-2-0/falsehoods-programmers-believe-about-gender-f9a3512b4c9c) - Gender is part of human identity and has its own subtleties.
-- [Falsehoods about Me](https://skylarmacdonald.com/falsehoods/) - Issues at the intersection of names and gender and internationalization.
-- [Gay Marriage: The Database Engineering Perspective](https://web.archive.org/web/20170914014648/https://qntm.org/gay) - How to store a marriage in a database while addressing most of the falsehoods about gender, naming and relationships.
-- [Personal Names Around the World](https://www.w3.org/International/questions/qa-personal-names) - How do people's names differ around the world, and what are the implications for the Web?
-- [XKCD #327: Exploits of a Mom](https://xkcd.com/327/) - Funny take on how implementation of a falsehood might lead to security holes.
-- [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/) - Real-life example on how implemented falsehood has negative impact on someone's life.
-- [HL7 v3 RIM](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186) - A flexible data model for representing human names.
-- [Apple iOS `NSPersonNameComponentsFormatter`](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/NSPersonNameComponentsFormatter_Class/index.html) - Localized representations of the components of a person's name.
+### Uluslararasılaştırma
 
-## Internationalization
+Karakter kodlaması, string biçimlendirme, unicode ve uluslararasılaştırma üzerine.
 
-On character encoding, string formatting, unicode and internationalization.
+- [Dil Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-language) – Bir yazılımı İngilizceden çevirmek göründüğü kadar basit değildir.
+- [Dil Hakkında Yanlışlar (ek)](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-language-1) – Önceki makaleyi tamamlayan ilave vakalar.
+- [Düz Metin Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-plain-text) – Düz metin yetersiz kalır, bu da Unicode'u sorunsuz çalışabilme yeteneğiyle daha da inanılmaz kılar.
+- [Metin hakkında yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-text) – Unicode normalizasyonu, bitişik harfler, vekil çiftler, karakter genişlikleri ve alt string işlemlerindeki grafem kümesi tuzaklarını gösteren pratik örnekler.
+- [Kodu Uluslararasılaştırma](https://github.com/kdeldycke/awesome-falsehood#internationalisz-ing-code) – Kodunuzu uluslararasılaştırırken aklınızda bulundurmanız gerekenler hakkında bir video.
+- [Unicode ve Karakter Kümeleri Hakkında Bilinmesi Gereken Minimum Şey](https://github.com/kdeldycke/awesome-falsehood#minimum-to-know-about-unicode-and-character-sets) – Unicode'a, tarihsel bağlamına ve kökenlerine iyi bir giriş, ardından iç işleyişine genel bakış.
+- [Harika Unicode](https://github.com/kdeldycke/awesome-falsehood#awesome-unicode) – Keyifli Unicode bilgi kırıntıları, paketler ve kaynakların özenle seçilmiş listesi.
+- [Unicode'un Karanlık Köşeleri](https://github.com/kdeldycke/awesome-falsehood#dark-corners-of-unicode) – Unicode kapsamlıdır, işte ejderhalar.
+- [Kod Noktalarına Anlam Yüklemeyi Bırakalım](https://github.com/kdeldycke/awesome-falsehood#lets-stop-ascribing-meaning-to-code-points) – Unicode'a derinlemesine dalar ve kod noktaları hakkındaki mitleri çürütür.
+- [Unicode yanlış anlamaları](https://github.com/kdeldycke/awesome-falsehood#unicode-misconceptions) – Harf büyüklüğü, kodlamalar, string uzunluğu ve daha fazlası üzerine bir yanlışlar koleksiyonu.
+- [Latin-1 Varsayımlarımızı Kırmak](https://github.com/kdeldycke/awesome-falsehood#breaking-our-latin-1-assumptions) – Çoğu programcı Latin-1 ile o kadar çok zaman geçirir ki diğer yazı sistemlerinin tuhaflıklarını unutur.
+- [Bir kargo etiketine övgü](https://github.com/kdeldycke/awesome-falsehood#ode-to-a-shipping-label) – Karakter kodlaması zordur, özellikle de her kırık veri giriş katmanı kendi baharatını eklediğinde.
+- [Yerelleştirme Başarısızlığı: Sıcaklık Zordur](https://github.com/kdeldycke/awesome-falsehood#localization-failure-temperature-is-hard) – Sıcaklık farklarını olduğu gibi yerelleştiremezsiniz.
+- [i18n Test Verisi](https://github.com/kdeldycke/awesome-falsehood#i18n-testing-data) – 🆓 Birim test ve QA için gerçek dünya uluslararası ve çeşitli isim verilerinin derlemesi.
+- [Büyük Yaramaz String Listesi](https://github.com/kdeldycke/awesome-falsehood#big-list-of-naughty-strings) – 🆓 Kullanıcı girdisi olarak kullanıldığında sorun çıkarma olasılığı yüksek dev bir string külliyatı. Yazılımınızı karşı test etmek için olmazsa olmaz pratik uç durumlar seti.
 
-- [Falsehoods about Language](http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language) - Translating a software from English is not as straightforward as it seems to be.
-- [Falsehoods about Language](https://www.lexiconista.com/falsehoods-about-languages/) - Additional cases to complement the previous article.
-- [Falsehoods about Plain Text](https://jeremyhussell.blogspot.com/2017/11/falsehoods-programmers-believe-about.html#main) - Plain text can't cut it, which makes Unicode even more incredible for its ability to just work well.
-- [Falsehoods about text](https://wiesmann.codiferes.net/wordpress/archives/30296) - Practical examples illustrating Unicode normalization, ligatures, surrogate pairs, character widths, and grapheme cluster pitfalls in substring operations.
-- [Internationalis(z)ing Code](https://www.youtube.com/watch?v=0j74jcxSunY) - A video about things you need to keep in mind when internationalizing your code.
-- [Minimum to Know About Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) - A good introduction to unicode, its historical context and origins, followed by an overview of its inner working.
-- [Awesome Unicode](https://github.com/jagracey/Awesome-Unicode) - A curated list of delightful Unicode tidbits, packages and resources.
-- [Dark corners of Unicode](https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/) - Unicode is extensive, here be dragons.
-- [Let's Stop Ascribing Meaning to Code Points](https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/) - Dives deeper in Unicode and dispels myths about code points.
-- [Unicode misconceptions](https://jean.abou-samra.fr/blog/unicode-misconceptions/) - A collection of falsehoods on case, encodings, string length, and more.
-- [Breaking Our `Latin-1` Assumptions](https://manishearth.github.io/blog/2017/01/15/breaking-our-latin-1-assumptions/) - Most programmers spend so much time with `Latin-1` they forgets about other's scripts quirks.
-- [Ode to a shipping label](http://i.imgur.com/4J7Il0m.jpg) - Character encoding is hard, more so when each broken layer of data input adds its own spice.
-- [Localization Failure: Temperature is Hard](https://randomascii.wordpress.com/2023/10/17/localization-failure-temperature-is-hard/) - You cannot localize temperature differences as-is.
-- [i18n Testing Data](https://github.com/patch/i18n-testing) - 🆓 Compilation of real-word international and diverse name data for unit testing and QA.
-- [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - 🆓 A huge corpus of strings which have a high probability of causing issues when used as user-input data. A must have set of practical edge-cases to test your software against.
+### Yönetim
 
-## Management
+- [İş Adayları Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-job-applicants) – İş adayları ve iş geçmişleri hakkındaki varsayımlar her zaman doğru değildir.
 
-- [Falsehoods about Job Applicants](https://web.archive.org/web/20170114022820/https://medium.com/@creatrixtiara/falsehoods-programmers-believe-about-job-applicants-99280437c616) - Assumptions about job applicants and their job histories aren't necessarily true.
+### Çoklu Ortam
 
-## Multimedia
+- [Video Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-video) – Hepsini kapsar: video çözme ve oynatma, dosyalar, görüntü ölçekleme, renk uzayları ve dönüşüm, ekranlar ve altyazılar.
+- [Müzikle uğraşırken dikkate alınması gereken korkunç uç durumlar](https://github.com/kdeldycke/awesome-falsehood#horrible-edge-cases-to-consider-when-dealing-with-music) – Müzik katalog verileri çılgın şeylerle doludur.
+- [MusicBrainz veritabanı şeması](https://github.com/kdeldycke/awesome-falsehood#musicbrainz-database-schema) – Müzik katalog yönetiminin karmaşıklığını çözmüş gibi görünen açık kaynaklı bir proje ve veritabanı.
+- [DDEX](https://github.com/kdeldycke/awesome-falsehood#ddex) – Arşivleme, ses kaydı, satış ve kullanım raporlaması, telif hakları ve lisans anlaşmaları dahil müzik meta verisi için endüstri standardı.
+- [Apple Music Stil Kılavuzu](https://github.com/kdeldycke/awesome-falsehood#apple-music-style-guide) – Keşfedilebilirliği artırmak için müzik, sanat eseri ve meta veriyi biçimlendirmeye yönelik kalite güvence yönergeleri.
 
-- [Falsehoods about Video](https://haasn.xyz/posts/2016-12-25-falsehoods-programmers-believe-about-%5Bvideo-stuff%5D.html) - Cover it all: video decoding and playback, files, image scaling, color spaces and conversion, displays and subtitles.
-- [Horrible edge cases to consider when dealing with music](https://dustri.org/b/horrible-edge-cases-to-consider-when-dealing-with-music.html) - Music catalogs data are full of crazy stuff.
-- [MusicBrainz database schema](https://musicbrainz.org/doc/MusicBrainz_Database/Schema) - An open-source project and database that seems to have solved the complexity of music catalog management.
-- [DDEX](https://ddex.net/standards/) - The industry standard for music metadata, including archiving, sound recording, sales and usage reporting, royalties and license deals.
-- [Apple Music Style Guide](https://help.apple.com/itc/musicstyleguide/en.lproj/static.html) - Quality insurance guidelines to format music, art, and metadata to increase discoverability.
+### Ağlar
 
-## Networks
+- [Ağlar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-networks) – TCP, DHCP, DNS, VLAN'lar ve IPv4/v6'yı kapsar.
+- [Dağıtık Hesaplamanın Yanılgıları](https://github.com/kdeldycke/awesome-falsehood#fallacies-of-distributed-computing) – Dağıtık uygulamalara yeni başlayan programcıların her zaman yaptığı varsayımlar.
+- [Bir IP adresi yazmanın birden fazla yolu vardır](https://github.com/kdeldycke/awesome-falsehood#theres-more-than-one-way-to-write-an-ip-address) – Adresin bazı bölümleri isteğe bağlıdır, ondalık ve sekizlik gösterime dikkat edin ve IPv6'yı da unutmayın.
+- [IDN çılgındır](https://github.com/kdeldycke/awesome-falsehood#idn-is-crazy) – Alan adlarındaki uluslararası karakterler, homograf ve heterograf desteği anlamına gelir.
 
-- [Falsehoods about Networks](https://web.archive.org/web/20250215201837/http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.html) - Covers TCP, DHCP, DNS, VLANs and IPv4/v6.
-- [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) - Assumptions that programmers new to distributed applications invariably make.
-- [There's more than one way to write an IP address](https://ma.ttias.be/theres-more-than-one-way-to-write-an-ip-address/) - Some parts of the address are optional, mind the decimal and octal notations, and [don't forget IPv6](https://news.ycombinator.com/item?id=20390981) either.
-- [IDN is crazy](https://daniel.haxx.se/blog/2022/12/14/idn-is-crazy/) - International characters in domain names mean support of homographs and heterographs.
+### Telefon Numaraları
 
-## Phone Numbers
+- [Telefon Numaraları Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-phone-numbers) – Telefon numaralarını, gösterimlerini ve anlamlarını kapsar.
+- [libphonenumber](https://github.com/kdeldycke/awesome-falsehood#libphonenumber) – 🆓 Google'ın uluslararası telefon numaralarını ayrıştırmak, biçimlendirmek ve doğrulamak için ortak Java, C++ ve JavaScript kütüphanesi. C#, Objective-C, Python ve PHP için de mevcut.
 
-- [Falsehoods about Phone Numbers](https://github.com/google/libphonenumber/blob/master/FALSEHOODS.md) - Covers phone numbers, their representation and meaning.
-- [`libphonenumber`](https://github.com/google/libphonenumber) - 🆓 Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers. Also available for [C#](https://github.com/twcclegg/libphonenumber-csharp), [Objective-C](https://github.com/iziz/libPhoneNumber-iOS), [Python](https://github.com/daviddrysdale/python-phonenumbers) and [PHP](https://github.com/giggsey/libphonenumber-for-php).
+### Posta Adresleri
 
-## Postal Addresses
+- [Adresler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-addresses) – Sokaklar, posta kodları, binalar, şehirler ve ülkeleri kapsar.
+- [İkamet Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-residence) – Sadece adresin kendisi değil, bir kişi ile ikametgahı arasındaki ilişki de önemlidir.
+- [İsimsiz, Adressiz Teslim Edilen Mektup](https://github.com/kdeldycke/awesome-falsehood#letter-delivered-despite-no-name-no-address) – Posta adresleriyle ilgili nihai yanlış: bir adrese ihtiyacınız yoktur.
+- [Birleşik Krallık Adres Tuhaflıkları](https://github.com/kdeldycke/awesome-falsehood#uk-address-oddities) – 1995'ten bu yana İngiltere ve Galler'deki çoğu konut satışının listesinden çıkarılan tuhaflıklar.
+- [Kendi Posta Koduna Sahip Ayı](https://github.com/kdeldycke/awesome-falsehood#the-bear-with-its-own-zip-code) – Smokey Bear'ın kendi posta kodu (20252) var çünkü çok fazla mektup alıyor.
+- [Kosta Rika neden gerçek adresler kullanmıyor?](https://github.com/kdeldycke/awesome-falsehood#why-doesnt-costa-rica-use-real-addresses) – Kosta Rika, referans noktalarına, tarihe ve epeyce tahmine dayanan kendine özgü bir adres sistemi kullanır.
+- [Regex ve Posta Adresleri](https://github.com/kdeldycke/awesome-falsehood#regex-and-postal-addresses) – Düzenli ifadeler ve sokak adresleri neden birbirine karışmaz.
+- [Meşhur Japon Posta CSV'sini Ayrıştırmak](https://github.com/kdeldycke/awesome-falsehood#parsing-the-infamous-japanese-postal-csv) – “Birçok korkunç şey gördüm, ama bu özel biçimlendirme tercihini başka hiçbir yerde görmedim.”
+- [USPS Posta Adresleme Standartları](https://github.com/kdeldycke/awesome-falsehood#usps-postal-addressing-standards) – Hem standart adres biçimlerini hem de içeriği tanımlar.
+- [libaddressinput](https://github.com/kdeldycke/awesome-falsehood#libaddressinput) – 🆓 Google'ın uluslararası posta adreslerini ayrıştırmak, biçimlendirmek ve doğrulamak için ortak C++ ve Java kütüphanesi.
+- [addressing](https://github.com/kdeldycke/awesome-falsehood#addressing) – 🆓 Google'ın veri kümesiyle çalışan PHP 5.4+ adresleme kütüphanesi.
+- [postal-address](https://github.com/kdeldycke/awesome-falsehood#postal-address) – 🆓 Posta adreslerini ayrıştırmak, normalleştirmek ve biçimlendirmek için Python modülü.
+- [address](https://github.com/kdeldycke/awesome-falsehood#address) – 🆓 Google'ın veri kümesini kullanarak adresleri doğrulamak ve biçimlendirmek için Go kütüphanesi.
 
-- [Falsehoods about Addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/) - Covers streets, postal codes, buildings, cities and countries.
-- [Falsehoods about Residence](https://twitter.com/samphippen/status/813896916534784004) - It's not only about the address itself, but the relationship between a person and its residence.
-- [Letter Delivered Despite No Name, No Address](https://boingboing.net/2016/08/30/letter-sent-to-iceland-farm-wi.html) - Ultimate falsehood about postal addresses: you do not need one.
-- [UK Address Oddities](https://paulplowman.com/stuff/uk-address-oddities/) - Quirks extracted from a list of most residential property sales in England and Wales since 1995.
-- [The Bear with Its Own ZIP Code](https://kottke.org/19/08/the-bear-with-its-own-zip-code) - Smokey Bear has his own ZIP Code (`20252`) because he gets so much mail.
-- [Why doesn't Costa Rica use real addresses?](https://www.crcdaily.com/p/why-doesnt-costa-rica-use-real-addresses) - Costa Rican uses an idiosyncratic system of addresses that relies on landmarks, history and quite a bit of guesswork.
-- [Regex and Postal Addresses](https://smartystreets.com/articles/regular-expressions-for-street-addresses) - Why regular expressions and street addresses do not mix.
-- [Parsing the Infamous Japanese Postal CSV](https://www.dampfkraft.com/posuto.html) - “I saw many horrors, but I've never seen this particular formatting choice anywhere else.”
-- [USPS Postal Addressing Standards](https://pe.usps.com/text/pub28/welcome.htm) - Describes both standardized address formats and content.
-- [`libaddressinput`](https://github.com/google/libaddressinput) - 🆓 Google's common C++ and Java library for parsing, formatting, and validating international postal addresses.
-- [`addressing`](https://github.com/commerceguys/addressing) - 🆓 A PHP 5.4+ addressing library, powered by Google's dataset.
-- [`postal-address`](https://github.com/scaleway/postal-address) - 🆓 Python module to parse, normalize and render postal addresses.
-- [`address`](https://github.com/Boostport/address) - 🆓 Go library to validate and format addresses using Google's dataset.
+### Bilim
 
-## Science
+- [Ölçüm Sistemleri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-systems-of-measurement) – Ölçüm sistemleriyle çalışma ve aralarında dönüşüm yapma üzerine.
 
-- [Falsehoods about Systems of Measurement](https://www.stevemoser.org/posts/dev/falsehoods-programmers-believe-about-systems-of-measurement.html) - On working with systems of measurement and converting between them.
+### Toplum
 
-## Society
+- [Siyasi Atamalar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-political-appointments) – Seçim sistemleri tasarlamanın kendine has püf noktaları vardır.
+- [Teknolojide Kadınlar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-women-in-tech) – STEM (Fen, Teknoloji, Mühendislik, Matematik) sektörlerindeki kadınlar hakkındaki mitler.
 
-- [Falsehoods about Political Appointments](https://twitter.com/oliver_dw/status/737930439575404544) - Designing election systems has its own tricks.
-- [Falsehoods about Women In Tech](https://gist.github.com/Su-Shee/5d1a417fa9de19c15477) - Myth about women in STEM (Science, Technology, Engineering, Math) industries.
+### Yazılım Mühendisliği
 
-## Software Engineering
+- [Sürümler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-versions) – Bir yazılım sürümüne kimlik atfetmek düşünüldüğünden daha zor olabilir.
+- [Derleme Sistemleri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-build-systems) – Yazılım derlemek zordur. Yazılım derleyen yazılım derlemek daha zordur.
+- [Tanımsız Davranış Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-undefined-behavior) – Tanımsız davranışı çağırmak, "herhangi bir şey"in sanıldığından çok daha geniş bir tanımıyla her şeyin olmasına neden olabilir.
+- [CPU Önbellekleri Hakkındaki Mitler](https://github.com/kdeldycke/awesome-falsehood#myths-about-cpu-caches) – Önbellekler hakkındaki yanlış anlamalar, özellikle eşzamanlılık ve yarış koşulları söz konusu olduğunda genellikle hatalı önermelere yol açar.
+- [Null işaretçiler hakkında yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-null-pointers) – Null işaretçiler genel olarak işaretçilerden bile daha lanetlidir ve provenance zaten işaretçileri oldukça karmaşık hale getirir.
+- [CSV'ler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-csvs) – RFC4180 var olsa da, kesin olmaktan uzaktır ve büyük ölçüde göz ardı edilir.
+- [Paket Yöneticileri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-package-managers) – Paketleri ve yöneticilerini kapsar.
+- [Test Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-testing) – Test hakkında bir yanlışlar listesi oluşturma girişimi.
+- [Arama Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-search) – Aramanın (analiz, tokenleştirme, vurgulama dahil) neden aldatıcı derecede karmaşık olduğu.
+- [Her yazılım mühendisinin arama hakkında bilmesi gerekenler](https://github.com/kdeldycke/awesome-falsehood#what-every-software-engineer-should-know-about-search) – Arama motorları uygulamanın zorluğu hakkında daha iyi kaynaklandırılmış bir makale.
+- [Sayfalandırma Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-pagination) – Sayfalandırma algoritmanız neden birine (muhtemelen size) baş ağrısı veriyor.
+- [Çöp toplama hakkında yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-garbage-collection) – Çöp toplamanın öngörülebilirliği ve performansı hakkındaki yanlış anlamalar.
+- [Dosya Yolları Hakkındaki Mitler](https://github.com/kdeldycke/awesome-falsehood#myths-about-file-paths) – Dosya sistemlerinin ve işletim sistemlerinin çeşitliliği dosya yollarını düşündüğümüzden biraz daha zor hale getirir.
+- [Windows dosya yollarının tuhaf dünyası](https://github.com/kdeldycke/awesome-falsehood#the-weird-world-of-windows-file-paths) – “Unix türevi herhangi bir sistemde yol hayranlık uyandıracak kadar basit bir şeydir: / ile başlıyorsa, bir yoldur. Windows'ta öyle değil.”
+- [/dev/urandom hakkındaki mitler](https://github.com/kdeldycke/awesome-falsehood#myths-about-devurandom) – /dev/urandom ve /dev/random hakkında tekrar tekrar söylenen birkaç şey vardır. Bunlar hâlâ yanlıştır.
+- [Durum Makineleri Hakkında Gerçekler](https://github.com/kdeldycke/awesome-falsehood#facts-about-state-machines) – Durum makineleri sıklıkla yanlış anlaşılır ve yetersiz uygulanır.
+- [Merhaba! Benim adım…](https://github.com/kdeldycke/awesome-falsehood#hi-my-name-is) – Bu konuşma, kullanıcı adları (ve diğer tanımlayıcılar) hakkındaki yanlışlar olarak da adlandırılabilirdi.
+- [mtime hakkındaki yaygın yanlış anlamalar](https://github.com/kdeldycke/awesome-falsehood#popular-misconceptions-about-mtime) – Dosyanın mtime karşılaştırmasının neden zararlı kabul edilebileceğine dair bir yazının parçası.
+- [Otomatik Tamamlama için Kurallar](https://github.com/kdeldycke/awesome-falsehood#rules-for-autocomplete) – Tam olarak yanlışlar değil, yine de otomatik tamamlama uygulamak için harika bir iyi uygulamalar listesi.
+- [Kayan Noktalı Matematik](https://github.com/kdeldycke/awesome-falsehood#floating-point-math) – “Diliniz bozuk değil, kayan noktalı matematik yapıyor. (…) Bu yüzden, çoğu zaman 0.1 + 0.2 != 0.3.”
+- [Cehennemden gelen yaml belgesi](https://github.com/kdeldycke/awesome-falsehood#the-yaml-document-from-hell) – YAML, kazara sayılar ve string olmayan anahtarlar gibi anlaşılması güç karmaşıklıklarla doludur.
+- [İçerik etiketleme sistemlerine sonsuz hayranlık duyuyorum](https://github.com/kdeldycke/awesome-falsehood#i-am-endlessly-fascinated-with-content-tagging-systems) – Sade bir yapıda olması beklenen etiketleme sistemlerinde bile uç durumlar vardır.
+- [Olay Güdümlü Sistemler Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-event-driven-systems) – Olay güdümlü sistemler ve mesaj iletimi hakkındaki yanlış anlamalar.
+- [Dijital Nesne Tanımlayıcıları (DOI) Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-digital-object-identifiers-dois) – Araştırma çıktılarını (ve pek çok başka şeyi) tanımlamak ve bağlamak için kullanılan tanımlayıcılar hakkındaki yanlış kavrayışlar.
+- [CVE Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-cve) – CVE ≠ güvenlik açığı (ve diğer 36 karışıklık).
 
-- [Falsehoods about Versions](https://github.com/xenoterracide/falsehoods/blob/master/versions.md) - Attributing an identity to a software release might be harder than thought.
-- [Falsehoods about Build Systems](https://pozorvlak.livejournal.com/174763.html) - Building software is hard. Building software that builds software is harder.
-- [Falsehoods about Undefined Behavior](https://predr.ag/blog/falsehoods-programmers-believe-about-undefined-behavior/) - Invoking undefined behavior can cause *anything* to happen, for a much broader definition of "anything" than one might think.
-- [Myths about CPU Caches](https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/) - Misconceptions about caches often lead to false assertions, especially when it comes to concurrency and race conditions.
-- [Falsehoods about null pointers](https://purplesyringa.moe/blog/falsehoods-programmers-believe-about-null-pointers/) - Null pointers are even more cursed than pointers in general, and provenance already makes pointers quite complicated.
-- [Falsehoods about CSVs](https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs) - While RFC4180 to exists, it is far from definitive and goes largely ignored.
-- [Falsehoods about Package Managers](https://kdeldycke.github.io/meta-package-manager/falsehoods.html) - Covers package and their managers.
-- [Falsehoods about Testing](https://club.ministryoftesting.com/t/falsehoods-testers-believe/1371) - An attempt to establish a list of falsehoods about testing.
-- [Falsehoods about Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/) - Why search (including analysis, tokenization, highlighting) is deceptively complex.
-- [What every software engineer should know about search](https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d) - A better sourced article on the difficulty of implementing search engines.
-- [Falsehoods about Pagination](https://www.hezmatt.org/~mpalmer/blog/2018/12/12/falsehoods-programmers-believe-about-pagination.html) - Why your pagination algorithm is giving someone (possibly you) a headache.
-- [Falsehoods about garbage collection](https://paul.bone.id.au/blog/2018/10/19/gc-falsehoods/) - Misconceptions about the predictability and performance of garbage collection.
-- [Myths about File Paths](https://yakking.branchable.com/posts/falsehoods-programmers-believe-about-file-paths/) - Diversity of file-systems and OSes makes file paths a little harder than we might think of.
-- [The weird world of Windows file paths](https://www.fileside.app/blog/2023-03-17_windows-file-paths/) - “On any Unix-derived system, a path is an admirably simple thing: if it starts with a `/`, it's a path. Not so on Windows.”
-- [Myths about `/dev/urandom`](https://www.2uo.de/myths-about-urandom) - There are a few things about `/dev/urandom` and `/dev/random` that are repeated again and again. Still they are false.
-- [Facts about State Machines](https://codeberg.org/catseye/The-Dossier/src/branch/master/article/Facts-about-State-Machines/README.md) - State machines are often misunderstood and under-applied.
-- [Hi! My name is…](https://www.youtube.com/watch?v=NIebelIpdYk) - This talk could have been named *falsehoods about usernames (and other identifiers)*.
-- [Popular misconceptions about `mtime`](https://apenwarr.ca/log/20181113) - Part of a post on why file's `mtime` comparison could be considered harmful.
-- [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html) - Not falsehoods *per se*, but still a great list of good practices to implement autocompletion.
-- [Floating Point Math](https://0.30000000000000004.com) - “Your language isn't broken, it's doing floating point math. (…) This is why, more often than not, `0.1 + 0.2 != 0.3`.”
-- [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) - YAML is full of obscure complexity like accidental numbers and non-string keys.
-- [I am endlessly fascinated with content tagging systems](https://twitter.com/hillelogram/status/1534301374166474752) - There are edge-cases even in tagging systems which are supposed to be barebone.
-- [Falsehoods about Event-Driven Systems](https://dimtion.fr/blog/falsehoods-event-driven/) - Misconceptions about event driven systems and message passing.
-- [Falsehoods about Digital Object Identifiers (DOIs)](https://pardalotus.tech/posts/2024-10-02-falsehoods-programmers-believe-about-dois/) - False conceptions about the identifiers that are used to identify and link research outputs (and a lot of other things).
-- [Falsehoods about CVE](https://medium.com/@jonathan.leitschuh/falsehoods-people-believe-about-cves-85c1d063ffda) - CVE ≠ vulnerability (and 36 other confusions).
+### Ulaşım
 
-## Transportation
+- [Havacılık Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-aviation) – Havacılık verileri düşündüğünüzden daha az normalize edilmiştir.
+- [Havayolu Koltuk Haritaları Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-airline-seat-maps) – Havayolu koltuk haritaları düzgün sıra ve sütunlardan çok daha karmaşıktır.
+- [Havalimanı Kodlarının Çıldırtıcı Karmaşası](https://github.com/kdeldycke/awesome-falsehood#the-maddening-mess-of-airport-codes) – Tarihi, pratikliği ve lojistiği uzlaştırmaya çalışan birden fazla uluslararası ve ulusal kurumun olması, kodların gizemli kurallara uymasına neden olur.
+- [Adım herhangi bir rezervasyonda soruna neden oluyor!](https://github.com/kdeldycke/awesome-falsehood#my-name-causes-an-issue-with-any-booking) – Eski havayolu rezervasyon sistemleri MR ekini Mister olarak değerlendirir ve düşürür.
 
-- [Falsehoods about Aviation](https://flightaware.engineering/falsehoods-programmers-believe-about-aviation/) - Aviation data are less normalized than you might think.
-- [Falsehoods about Airline Seat Maps](https://duffel.com/blog/falsehoods-about-seat-maps) - Airline seat maps are far more complex than just neat rows and columns of seats.
-- [The Maddening Mess of Airport Codes](https://www.youtube.com/watch?v=jfOUVYQnuhw) - Having multiple international and national agencies trying to reconcile history, practicality and logistics makes codes follow arcane rules.
-- [My name causes an issue with any booking!](https://web.archive.org/web/20250528134345/https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs) - Old airline reservation systems considers the `MR` suffix as `Mister` and drops it.
+### Tipografi
 
-## Typography
+- [Fontlar Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-fonts) – Web'de ve masaüstü uygulamalarda tipografi hakkındaki varsayımlar.
+- [Programcıların harf büyüklüğü hakkında bilmesi gereken doğrular](https://github.com/kdeldycke/awesome-falsehood#truths-programmers-should-know-about-case) – Harf büyüklüğü (büyük ve küçük harf metin) konusunda yanlışlar formatının tam tersi.
 
-- [Falsehoods about Fonts](https://github.com/RoelN/Font-Falsehoods) - Assumptions about typography on the web and in desktop applications.
-- [Truths programmers should know about case](https://www.b-list.org/weblog/2018/nov/26/case/) - A complete reverse of the falsehoods format, on the topic of case (as in uppercase and lowercase text).
+### Video Oyunları
 
-## Video Games
+- [Kapı Problemi](https://github.com/kdeldycke/awesome-falsehood#the-door-problem) – Oyunlarda kapılarınız için uygulamayı düşünmediğiniz tüm şeyler.
 
-- [The Door Problem](https://lizengland.com/blog/2014/04/the-door-problem/) - All the things you have not considered implementing for your doors in games.
+### Web
 
-## Web
+- [HTML Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-html) – “Web güzeldir. Web çirkindir. Web şaşırtıcıdır. Bu çekiciliğin bir parçası da tarihsel tuhaflıklarıyla HTML'dir.”
+- [REST API'leri Hakkında Yanlışlar](https://github.com/kdeldycke/awesome-falsehood#falsehoods-about-rest-apis) – API'ler oluştururken ve belgelendirirken dikkat edilmesi gereken tuzaklar.
+- [URL'ler: Karmaşık…](https://github.com/kdeldycke/awesome-falsehood#urls-its-complicated) – Bir URL'de birçok bileşen vardır ve hepsinin kendi mantığı vardır.
+- [Favicon İndirmenin Gizli Karmaşıklığı, 15+ Uç Durumda Anlatılıyor](https://github.com/kdeldycke/awesome-falsehood#the-hidden-complexity-of-downloading-favicons-told-in-15-edge-cases) – Tarayıcı sekmelerinde gördüğünüz o küçük simgeyi indirmek basit bir egzersiz olmalı. Düşündüğünüzden çok daha karmaşık çıktı. Bir Yak tıraşlamadığınızdan emin olun.
 
-- [Falsehoods about HTML](https://www.aartaka.me.eu.org/falsehoods-html) - “Web is beautiful. Web is ugly. Web is astonishing. A part of this appeal is HTML, with its historical quirks.”
-- [Falsehoods about REST APIs](https://web.archive.org/web/20201112010147/http://slinkp.com/falsehoods-programmers-believe-about-apis.html) - Pitfalls to be mindful of when creating and documenting APIs.
-- [URLs: It's complicated…](https://www.netmeister.org/blog/urls.html) - There's a lot of components in an URL, and all have their own logic.
-- [The Hidden Complexity of Downloading Favicons, Told in 15+ Edge Cases](https://web.archive.org/web/20230604033340/https://www.simplecto.com/complexity-downloading-favicons-told-in-15-plus-edge-cases/) - Downloading that little icon you see in you browser tabs should be a simple exercise. It turned out to be a lot more complicated than you think. Be vigilant that you are not shaving a Yak.
+## Katkıda Bulunma
 
-## Contributing
+Katkılarınız her zaman memnuniyetle karşılanır! Lütfen önce [katkı yönergelerine](https://github.com/kdeldycke/awesome-falsehood/blob/main/contributing.md) bir göz atın.
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/kdeldycke/awesome-falsehood/blob/main/.github/contributing.md) first.
+## Dipnotlar
 
-## Footnotes
+Bu liste son birkaç yıldır sosyal medyada popülerlik kazandı. [Başka yerlerde tartışıldığını ve anıldığını](https://github.com/kdeldycke/awesome-falsehood#social-media) görebilirsiniz.
 
-This list gathered some popularity in social medias over the past few years. See it being [discussed and mentioned elsewhere](https://github.com/kdeldycke/kdeldycke/blob/main/in-the-media.md).
+Başlık görseli, Şubat 2010'da Iza Bella tarafından çekilmiş, Creative Commons BY-SA 2.0 UK lisansı altında dağıtılan değiştirilmiş bir fotoğrafa dayanmaktadır.
 
-The [header image](https://github.com/kdeldycke/awesome-falsehood/blob/main/assets/awesome-falsehood-header.jpg) is based on a modified [photo taken in February 2010 by Iza Bella](https://commons.wikimedia.org/wiki/File:BLW_Truth_and_Falsehood.jpg), distributed under a [Creative Commons BY-SA 2.0 UK license](https://creativecommons.org/licenses/by-sa/2.0/uk/deed.en).
+[1]: Notebooks, 1914-1916 (Liveright, 2022) - kaynak: sayfa 14e. [↑]
 
-<!--lint disable no-undefined-references-->
 
-<a name="intro-quote-def">[1]</a>: [*Notebooks, 1914-1916*](https://www.amazon.com/dp/1324090804?&linkCode=ll1&tag=kevideld-20&linkId=a1903c3fbfdc82fbe2e566fca40718fb&language=en_US&ref_=as_li_ss_tl) (Liveright, 2022) - [source: page 14e](https://archive.org/details/notebooks191419100witt/page/n35). [[↑]](#intro-quote-ref)
+
