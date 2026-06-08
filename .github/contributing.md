@@ -1,5 +1,4 @@
-# Katkıda Bulunma
-
+Katkıda Bulunma
 Katkılarınız her zaman memnuniyetle karşılanır! İşte bazı yönergeler.
 
 Durum
@@ -274,15 +273,3 @@ Katkınız reddedildiyse, seçki kurallarını aşmanın bir yolu vardır. Bir s
 
 awesome-falsehood için SSS
 Bu sorular Awesome Falsehood projesine özeldir.
-
-Neden yanlışları doğrudan listeye kopyalamıyorsunuz?
-Tüm yanlışları depoda derlemek iyi bir fikir olabilir. Topluluğun onları sürdürmesine ve zenginleştirmesine olanak tanırdı. Ayrıca, çoğu harici makale bir yanlışın neden yanlış olduğunu gösterme veya açıklama zahmetine girmediğinden genel kaliteyi de artırabilirdi.
-
-Ancak bu büyük bir çabadır, bu yüzden işleri basit tutmak adına bu listede yalnızca harici makalelerin bir koleksiyonunu yapıyoruz. Bu arada, yanlışlar eklemek isterseniz, potansiyel katkıcılardan bunları başka bir yerde barındırmalarını isteyeceğim.
-
-Ayrıca, ham yanlışları bu depoda barındırmak zorunda kalsaydık, lisansı kontrol etmemiz ve orijinal yazardan izin istememiz gerekebilirdi.
-
-
-
-
-
